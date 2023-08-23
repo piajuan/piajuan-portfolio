@@ -34,3 +34,33 @@
         @apply font-secondary;
     }
 }
+@layer utilities {
+    .hero__blob {
+        animation-name: move;
+        animation-iteration-count: infinite;
+    }
+    .hero__blob:nth-child(1) {
+        animation-duration: 11.2s;
+        animation-delay: -11s;
+        transform-origin: -1vw 1vh;
+    }
+    .hero__blob:nth-child(2) {
+        animation-duration: 10.6s;
+        animation-delay: -15.9s;
+        transform-origin: -2vw -2VH;
+    }
+    .hero__blob:nth-child(3) {
+        animation-name: move;
+        animation-duration: 14.6s;
+        animation-delay: -8.8s;
+        transform-origin: -5vw -5vh;
+        animation-iteration-count: infinite;
+    }
+   
+}
+
+@keyframes move {
+    100% {
+        transform:translate3d(0,0,1px) rotate(360deg)
+    }
+}
