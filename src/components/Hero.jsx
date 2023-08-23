@@ -2,10 +2,10 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='h-screen pt-[60px] p-4 dark:bg-dark-300'>
+    <div className='h-screen pt-[60px] p-4'>
         <div className='relative h-full overflow-hidden rounded-lg bg-hero'>
             {/* start: blobs */}
-            <div className='hero__blob absolute w-[150vh] aspect-square rounded-full dark:bg-[#FFDD29] left-[20vw]'></div>
+            <div className='hero__blob absolute w-[150vh] aspect-square rounded-full dark:bg-[#E7C173] left-[20vw]'></div>
             <div className='hero__blob absolute w-[150vh] aspect-square rounded-full dark:bg-[#F9600A] left-[50vw]'></div>
             <div className='hero__blob absolute w-[150vh] aspect-square rounded-full dark:bg-[#3676F3] left-[30vw] bottom-0'></div>
             {/* end: blobs */}
