@@ -1,16 +1,36 @@
-import Header from "./components/Header"
-import Hero from "./components/Hero"
-import FeaturedProjects from "./components/FeaturedProjects"
+import Home from "./pages/home"
+import Works from "./pages/Works"
+import About from "./pages/About"
+import AppLayout from "./components/layouts/AppLayout"
+
+import { RouterProvider, createBrowserRouter } from "react-router-dom"
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <AppLayout />,
+    children: [
+      {
+        path: "/",
+        element: <Home />
+      },
+      {
+        path: "/works",
+        element: <Works />
+      },
+      {
+        path: "/about",
+        element: <About />
+      },
+    ]
+  },
+])
 
 function App() {
 
   return (
     <div className="dark">
-      <div className="dark:bg-dark-300 min-h-screen">
-        <Header />
-        <Hero />
-        <FeaturedProjects />
-      </div>
+      <RouterProvider router={router}/>
     </div>
   )
 }

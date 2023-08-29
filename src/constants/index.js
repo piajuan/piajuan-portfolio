@@ -27,3 +27,22 @@ export const landingFeaturedProjects = [
         role: "Frontend Development, UI/UX Design"
     },
 ]
+
+export const aLittleAboutMe = [
+    {
+        title: "Currently Listening To",
+        value: ["Honey Calm Down by Cheats", "lofi.co jazz 🎷"]
+    },
+    {
+        title: "Currently Learning",
+        value: ["ReactJS", "TypeScript"]
+    },
+    {
+        title: "Currently Reading",
+        value: ["Make Time (by Jake Knapp and John Zeratsky)"]
+    },
+    {
+        title: "Current Obsessions",
+        value: ["iced matcha oat latte 🍵", "binge-watching Better Call Saul"]
+    }
+]

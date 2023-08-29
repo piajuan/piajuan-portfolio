@@ -2,6 +2,7 @@ import React from 'react'
 import { useId } from 'react'
 import { landingFeaturedProjects } from "../constants"
 import FeaturedCard from "./FeaturedCard"
+import { Button } from "../components/ui/button"
 
 const FeaturedProjects = () => {
   return (
@@ -15,6 +16,8 @@ const FeaturedProjects = () => {
                 {landingFeaturedProjects.map(proj => <FeaturedCard key={useId()} {...proj}/>)}
             </div>
         </div>
+
+        <Button className='mx-auto mt-[20vh] flex'> see all projects </Button>
     </section>
   )
 }
