@@ -1,4 +1,17 @@
-import { geh, ninecloud, smartxbts, virtualdoor } from "../assets"
+import { geh, ninecloud, smartxbts, virtualdoor, techStackIcons } from "../assets"
+
+import html from "../assets/tech/html.svg"
+import css from "../assets/tech/css.svg"
+import js from "../assets/tech/js.svg"
+import react from "../assets/tech/react.svg"
+import vite from "../assets/tech/vitejs.svg"
+import sass from "../assets/tech/sass.svg"
+import tailwind from "../assets/tech/tailwindcss.svg"
+import bootstrap from "../assets/tech/bootstrap.svg"
+import jquery from "../assets/tech/jquery.svg"
+import vscode from "../assets/tech/vscode.svg"
+import xd from "../assets/tech/xd.svg"
+import figma from "../assets/tech/figma.svg"
 
 
 export const landingFeaturedProjects = [
@@ -45,4 +58,67 @@ export const aLittleAboutMe = [
         title: "Current Obsessions",
         value: ["iced matcha oat latte 🍵", "binge-watching Better Call Saul"]
     }
+]
+
+export const featuredProjects = [
+    {
+        thumb: geh,
+        title: ["NTC", "InfoCenter Kiosk"],
+        desc: "Lorem ipsum dolor",
+        techSvg: [react, vite],
+        vid: "",
+        carouselImages: [],
+        about: "A classic todo app with a few added features as part of the frontendmentor challenge. The user can:",
+        features: [
+            "View the optimal layout for the app depending on their device's screen size",
+            "Add new todos to the list",
+            "Mark todos as complete",
+            "Delete todos from the list",
+            "Filter by all/active/complete todos",
+            "Clear all completed todos",
+            "Toggle light and dark mode",
+            "Drag and drop to reorder items on the list"
+        ],
+        techText: ["ReactJS", "Vite"]
+    },
+    {
+        thumb: virtualdoor,
+        title: ["NTC", "InfoCenter Kiosk"],
+        desc: "Lorem ipsum dolor",
+        techSvg: [react, vite],
+        vid: "",
+        carouselImages: [],
+        about: "A classic todo app with a few added features as part of the frontendmentor challenge. The user can:",
+        features: [
+            "View the optimal layout for the app depending on their device's screen size",
+            "Add new todos to the list",
+            "Mark todos as complete",
+            "Delete todos from the list",
+            "Filter by all/active/complete todos",
+            "Clear all completed todos",
+            "Toggle light and dark mode",
+            "Drag and drop to reorder items on the list"
+        ],
+        techText: ["ReactJS", "Vite"]
+    },
+    {
+        thumb: smartxbts,
+        title: ["NTC", "InfoCenter Kiosk"],
+        desc: "Lorem ipsum dolor",
+        techSvg: [react, vite],
+        vid: "",
+        carouselImages: [],
+        about: "A classic todo app with a few added features as part of the frontendmentor challenge. The user can:",
+        features: [
+            "View the optimal layout for the app depending on their device's screen size",
+            "Add new todos to the list",
+            "Mark todos as complete",
+            "Delete todos from the list",
+            "Filter by all/active/complete todos",
+            "Clear all completed todos",
+            "Toggle light and dark mode",
+            "Drag and drop to reorder items on the list"
+        ],
+        techText: ["ReactJS", "Vite"]
+    },
 ]

@@ -41,9 +41,59 @@ export {
     tagline
 }
 
-export const techStackIcons = [
-    html, css, js, react, vite, sass, tailwind, bootstrap, jquery, vscode, xd, figma
-]
+export const techStackIcons = [html, css, js, react, vite, sass, tailwind, bootstrap, jquery, vscode, xd, figma]
+
+// export const techStackIcons = [
+//     {
+//         title: "HTML",
+//         icon: html
+//     },
+//     {
+//         title: "CSS",
+//         icon: css
+//     },
+//     {
+//         title: "JavaScript",
+//         icon: js
+//     },
+//     {
+//         title: "ReactJS",
+//         icon: react
+//     },
+//     {
+//         title: "Vite",
+//         icon: vite
+//     },
+//     {
+//         title: "SASS",
+//         icon: sass
+//     },
+//     {
+//         title: "TailwindCSS",
+//         icon: tailwind
+//     },
+//     {
+//         title: "Bootstrap",
+//         icon: bootstrap
+//     },
+//     {
+//         title: "JQuery",
+//         icon: jquery
+//     },
+//     {
+//         title: "VS Code",
+//         icon: vscode
+//     },
+//     {
+//         title: "Adobe XD",
+//         icon: xd
+//     },
+//     {
+//         title: "Figma",
+//         icon: figma
+//     },
+// ]
+
 
 export const aboutMePics = [
     aboutMe1, aboutMe2, aboutMe3, aboutMe4, aboutMe5, aboutMe6
