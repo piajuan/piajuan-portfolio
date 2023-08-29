@@ -15,7 +15,8 @@ export default {
         dark: {
           100: "#26292B",
           200: "#1D2021",
-          300: "#161819",
+          300: "#181a1b",
+          400: "#161819",
         },
         // shadcn
         border: "hsl(var(--border))",

@@ -12,8 +12,8 @@ const TechStack = () => {
             <div className='marquee__content' aria-hidden='true'>{marqueeContent}</div>
 
             {/* fog effect */}
-            <div className="absolute top-0 left-[-1px] h-full w-[47px] bg-gradient-to-r from-dark-300 to-[hsla(0,0%,100%,0)]"></div>
-            <div className="absolute top-0 right-[-1px] h-full w-[47px] bg-gradient-to-r from-[hsla(0,0%,100%,0)] to-dark-300"></div>
+            <div className="absolute top-0 left-[-1px] h-full w-[47px] bg-gradient-to-r from-dark-400 to-[hsla(0,0%,100%,0)]"></div>
+            <div className="absolute top-0 right-[-1px] h-full w-[47px] bg-gradient-to-r from-[hsla(0,0%,100%,0)] to-dark-400"></div>
         </div>
     </div>
   )

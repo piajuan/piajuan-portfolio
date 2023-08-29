@@ -122,3 +122,31 @@ export const featuredProjects = [
         techText: ["ReactJS", "Vite"]
     },
 ]
+
+export const archives = [
+    {
+      year: "2021",
+      project: "9NineCloud",
+      company: "HTech Corporation",
+      role: "Frontend",
+      tech: "HTML, CSS, Bootstrap, SwiperJS, ScrollRevealJS",
+      link: undefined,
+    },
+    {
+      year: "2021",
+      project: "9NineCloud",
+      company: "HTech Corporation",
+      role: "Frontend",
+      tech: "HTML, CSS, Bootstrap, SwiperJS, ScrollRevealJS",
+      link: "google.com"
+    },
+    {
+      year: "2021",
+      project: "9NineCloud",
+      company: "HTech Corporation",
+      role: "Frontend",
+      tech: "HTML, CSS, Bootstrap, SwiperJS, ScrollRevealJS",
+      link: undefined,
+    },
+    
+  ]

@@ -5,9 +5,9 @@ import { Outlet } from 'react-router-dom'
 
 const AppLayout = () => {
   return (
-    <div className="dark:bg-dark-300 min-h-screen">
+    <div className="dark:bg-dark-400 min-h-screen">
         <Header/>
-            <main className='pt-[60px]'> <Outlet /> </main>
+            <main className='pt-[56px]'> <Outlet /> </main>
         <Footer/>
     </div>
   )
