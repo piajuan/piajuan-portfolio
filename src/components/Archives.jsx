@@ -13,7 +13,7 @@ import {
 
 const Archives = () => {
   return (
-    <section className='bg-dark-300'>
+    <section className='dark:bg-dark-300'>
         <div className="container mx-auto m-8 py-16 max-w-[900px]">
             <h3 className='font-tertiary uppercase text-center mb-4 dark:text-white'>Archives</h3>
             <Table>

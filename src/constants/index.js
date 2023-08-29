@@ -66,8 +66,7 @@ export const featuredProjects = [
         title: ["NTC", "InfoCenter Kiosk"],
         desc: "Lorem ipsum dolor",
         techSvg: [react, vite],
-        vid: "",
-        carouselImages: [],
+        carouselMedia: [],
         about: "A classic todo app with a few added features as part of the frontendmentor challenge. The user can:",
         features: [
             "View the optimal layout for the app depending on their device's screen size",
@@ -83,11 +82,10 @@ export const featuredProjects = [
     },
     {
         thumb: virtualdoor,
-        title: ["NTC", "InfoCenter Kiosk"],
+        title: ["Virtual", "Door"],
         desc: "Lorem ipsum dolor",
         techSvg: [react, vite],
-        vid: "",
-        carouselImages: [],
+        carouselMedia: [],
         about: "A classic todo app with a few added features as part of the frontendmentor challenge. The user can:",
         features: [
             "View the optimal layout for the app depending on their device's screen size",
@@ -103,11 +101,10 @@ export const featuredProjects = [
     },
     {
         thumb: smartxbts,
-        title: ["NTC", "InfoCenter Kiosk"],
+        title: ["Sample", "Idk"],
         desc: "Lorem ipsum dolor",
         techSvg: [react, vite],
-        vid: "",
-        carouselImages: [],
+        carouselMedia: [],
         about: "A classic todo app with a few added features as part of the frontendmentor challenge. The user can:",
         features: [
             "View the optimal layout for the app depending on their device's screen size",
