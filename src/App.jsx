@@ -1,4 +1,4 @@
-import Home from "./pages/home"
+import Home from "./pages/Home"
 import Works from "./pages/Works"
 import About from "./pages/About"
 import AppLayout from "./components/layouts/AppLayout"
