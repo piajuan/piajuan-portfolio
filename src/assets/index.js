@@ -1,8 +1,18 @@
 // featured projects
 import geh from "./featured/geh.jpg"
-import ninecloud from "./featured/ninecloud.jpg"
+// import ninecloud from "./featured/ninecloud.jpg"
 import smartxbts from "./featured/smartxbts.jpg"
 import virtualdoor from "./featured/virtualdoor.jpg"
+
+// archives
+import broombroom from "./archives/broombroom.png"
+import favesRecording from "./archives/faves-recording.png"
+import faves from "./archives/faves.png"
+import heartstrings from "./archives/heartstrings.png"
+import influenft from "./archives/influenft.png"
+import ninecloud from "./archives/ninecloud.png"
+import puregold from "./archives/puregold.png"
+import shakeshack from "./archives/shakeshack.png"
 
 // tech stack
 import html from "./tech/html.svg"
@@ -97,4 +107,8 @@ export const techStackIcons = [html, css, js, react, vite, sass, tailwind, boots
 
 export const aboutMePics = [
     aboutMe1, aboutMe2, aboutMe3, aboutMe4, aboutMe5, aboutMe6
+]
+
+export const archivesPics = [
+    influenft, ninecloud, puregold, faves, heartstrings, broombroom, favesRecording, shakeshack
 ]
