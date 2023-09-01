@@ -5,7 +5,7 @@ import { aboutMePics } from '../../assets'
 const AboutMe = () => {
   return (
     <section>
-        <div className='container mx-auto mb-[24vh]'>
+        <div className='container mx-auto my-[24vh]'>
             <h2 className='text-8xl font-primary dark:text-white'>a little about me</h2>
             <div className='grid gap-4 grid-cols-1 my-14 md:grid-cols-2 lg:grid-cols-4'>
                 {
@@ -41,10 +41,10 @@ const AboutMe = () => {
             </div>
         </div>
 
-        <div className="container mx-auto">
+        <div className="container mx-auto lg:max-w-[70vw]">
             <div className='gap-10 columns-2 md:columns-3'>
                 {aboutMePics.map((pic,i) => (
-                    <img key={i} src={pic} className='w-full mb-10 rounded-[8px] [&:nth-child(3)]:pt-[6rem]'/>
+                    <img key={i} src={pic} className='w-full mb-10 rounded-[8px] [&:nth-child(4)]:pt-[6rem] brightness-[0.8]'/>
                 ))}
             </div>
         </div>

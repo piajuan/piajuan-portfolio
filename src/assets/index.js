@@ -1,8 +1,8 @@
 // featured projects
 import geh from "./featured/geh.jpg"
-// import ninecloud from "./featured/ninecloud.jpg"
+import ispyattheshack from "./featured/ispyattheshack.jpg"
 import smartxbts from "./featured/smartxbts.jpg"
-import virtualdoor from "./featured/virtualdoor.jpg"
+import lusogisip from "./featured/lusogisip.jpg"
 
 // archives
 import broombroom from "./archives/broombroom.png"
@@ -34,18 +34,22 @@ import hiMemoji from "./hi-memoji.svg"
 import aboutVid from "./about/working.mp4"
 import tagline from "./tagline.svg"
 
-import aboutMe1 from "./about/aboutme-1.jpeg"
-import aboutMe2 from "./about/aboutme-2.jpeg"
-import aboutMe3 from "./about/aboutme-3.jpeg"
-import aboutMe4 from "./about/aboutme-4.jpeg"
-import aboutMe5 from "./about/aboutme-5.jpeg"
-import aboutMe6 from "./about/aboutme-6.jpeg"
+import reading from "./about/reading.jpg"
+import cafe from "./about/cafe.jpg"
+import hike from "./about/hike.jpg"
+import crochet from "./about/crochet.jpg"
+// import camp from "./about/camp.jpg"
+import museum from "./about/museum.jpg"
+import nature from "./about/nature.jpg"
+import photography from "./about/photography.jpg"
+import wallclimb from "./about/wallclimb.jpg"
+import tent from "./about/tent.gif"
 
 export {
     geh, 
-    ninecloud, 
     smartxbts, 
-    virtualdoor,
+    ispyattheshack,
+    lusogisip,
     hiMemoji,
     aboutVid,
     tagline
@@ -106,7 +110,7 @@ export const techStackIcons = [html, css, js, react, vite, sass, tailwind, boots
 
 
 export const aboutMePics = [
-    aboutMe1, aboutMe2, aboutMe3, aboutMe4, aboutMe5, aboutMe6
+    reading, crochet, photography, cafe, nature, wallclimb, hike, museum, tent
 ]
 
 export const archivesPics = [

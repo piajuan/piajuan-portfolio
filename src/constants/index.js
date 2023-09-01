@@ -1,4 +1,4 @@
-import { geh, ninecloud, smartxbts, virtualdoor, techStackIcons } from "../assets"
+import { geh, smartxbts, ispyattheshack, lusogisip, techStackIcons } from "../assets"
 
 import html from "../assets/tech/html.svg"
 import css from "../assets/tech/css.svg"
@@ -28,15 +28,15 @@ export const landingFeaturedProjects = [
         role: "Frontend Development"
     },
     {
-        thumb: ninecloud,
-        projectName1: "9Nine",
-        projectName2: "Cloud",
+        thumb: ispyattheshack,
+        projectName1: "ISpyAt",
+        projectName2: "TheShack",
         role: "Frontend Development"
     },
     {
-        thumb: virtualdoor,
-        projectName1: "Virtual",
-        projectName2: "Door",
+        thumb: lusogisip,
+        projectName1: "DOH",
+        projectName2: "Lusog-Isip",
         role: "Frontend Development, UI/UX Design"
     },
 ]
@@ -81,7 +81,7 @@ export const featuredProjects = [
         techText: ["ReactJS", "Vite"]
     },
     {
-        thumb: virtualdoor,
+        thumb: geh,
         title: ["Virtual", "Door"],
         desc: "Lorem ipsum dolor",
         techSvg: [react, vite],

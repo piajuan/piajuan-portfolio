@@ -3,14 +3,14 @@ import { aboutVid, tagline } from "../../assets"
 
 const Intro = () => {
   return (
-    <section className='min-h-screen relative flex flex-col'>
-        <div className="container relative flex-auto mx-auto flex justify-end items-center">
-            <div className='absolute top-1/2 left-0 translate-y-[-55%] aspect-video h-[80vh] max-w-[1040px] overflow-hidden'>
-                <video className='absolute right-0 w-full h-full scale-[1.1] origin-right object-cover' autoPlay={true} muted loop>
+    <section className='h-[calc(100vh-56px)] p-4'>
+        <div className='relative h-full overflow-hidden rounded-lg flex flex-col lg:items-end justify-center'>
+            <div className='absolute top-0 left-0 w-full h-full overflow-hidden'>
+                <video className='absolute right-0 w-full h-full origin-right object-cover translate-x-[-12vw]' autoPlay={true} muted loop>
                     <source src={aboutVid} type="video/mp4"/>
                 </video>
 
-                <div className='absolute left-0 top-0 w-full h-full bg-[linear-gradient(269deg,#161819,rgba(0,0,0,0.2)100%)]'></div>
+                <div className='absolute left-0 top-0 w-full h-full bg-[linear-gradient(270deg,#161819_39%,rgba(0,0,0,0.42)95.24%)]'></div>
             </div>
 
             <div className='z-[1] lg:w-2/5 xl:pr-24'>
@@ -20,8 +20,10 @@ const Intro = () => {
             </div>
         </div>
 
-        <img src={tagline} className='absolute top-[5%] right-0 opacity-[0.4]' alt="Crafting Digital Experiences, One Line of Code at a Time" />
+        <img src={tagline} className='absolute top-[15%] right-0 opacity-[0.7]' alt="Crafting Digital Experiences, One Line of Code at a Time" />
     </section>
+
+   
   )
 }
 
