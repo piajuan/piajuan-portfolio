@@ -86,7 +86,8 @@ export const featuredProjects = [
             "Drag and drop to reorder items on the list"
         ],
         techText: ["ReactJS", "Vite"],
-        externalLink: "https://react-todo-app-piajuan.vercel.app/"
+        externalLink: "https://react-todo-app-piajuan.vercel.app/",
+        role: "Frontend Development"
     },
     {
         thumb: featuredImages.ntcVidwall.thumb,
@@ -103,6 +104,21 @@ export const featuredProjects = [
         ],
         techText: ["HTML", "SASS", "Bootstrap", "JQuery", "SwiperJS"],
         externalLink: null,
+        role: "Frontend Development"
+    },
+    {
+        thumb: featuredImages.geh.thumb,
+        title: ["Globe", "EasyHub"],
+        desc: "An interactive one-stop shop for all essential needs -- shop, pay, explore, and access info about customer service support",
+        techSvg: [html, sass, bootstrap, jquery, swiper],
+        carouselMedia: featuredImages.geh.slides,
+        about: "",
+        features: [
+            ""
+        ],
+        techText: ["HTML", "SASS", "Bootstrap", "JQuery", "SwiperJS", "ScrollReveal"],
+        externalLink: "https://www.globe.com.ph/about-us/newsroom/consumer/globe-easyhub-best-in-class-retail-innovation.html",
+        role: "Frontend Development"
     }
    
 ]

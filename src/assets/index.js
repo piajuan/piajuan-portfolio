@@ -13,6 +13,10 @@ import ntcVidwallThumb from "./featured/ntc-vidwall/thumb.jpg"
 import ntcVidwall1 from "./featured/ntc-vidwall/slide1.gif"
 import ntcVidwall2 from "./featured/ntc-vidwall/slide2.jpg"
 
+import gehThumb from "./featured/geh/thumb.jpg"
+import geh1 from "./featured/geh/slide1.gif"
+import geh2 from "./featured/geh/slide2.gif"
+
 
 // archives
 import broombroom from "./archives/broombroom.png"
@@ -76,6 +80,10 @@ export const featuredImages = {
     ntcVidwall: {
         thumb: ntcVidwallThumb,
         slides: [ntcVidwall1, ntcVidwall2]
+    },
+    geh: {
+        thumb: gehThumb,
+        slides: [geh1, geh2]
     }
 }
 

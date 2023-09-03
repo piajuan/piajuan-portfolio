@@ -56,6 +56,11 @@ const ProjectSheet = ({proj}) => {
                             ))}
                         </ul>
                     </div>
+
+                    <div>
+                        <h3 className='mb-2 text-rg font-tertiary opacity-[0.4] uppercase dark:text-white'>Role</h3>
+                        <span className='dark:text-white'>{proj.role}</span>
+                    </div>
                     
                     <div>
                         <h3 className='mb-2 text-rg font-tertiary opacity-[0.4] uppercase dark:text-white'>Technologies</h3>
