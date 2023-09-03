@@ -61,6 +61,8 @@
         --ring: 215 20.2% 65.1%;
      
         --radius: 0.5rem;
+
+        --swiper-pagination-color: #000;
       }
      
       .dark {

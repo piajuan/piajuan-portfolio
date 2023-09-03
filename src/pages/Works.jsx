@@ -11,7 +11,7 @@ const Works = () => {
         <section>
           <div className="container mx-auto">
             <h3 className='font-tertiary uppercase text-center dark:text-white'>Featured Projects</h3>
-            <div className='grid grid-cols-2 md:grid-cols-3 lg:w-4/5 mx-auto my-8 gap-4'>
+            <div className='grid grid-cols-2 md:grid-cols-3 lg:w-[90%] mx-auto my-8 gap-4 lg:gap-10'>
               {featuredProjects.map((proj) => <ProjectSheet proj={proj}/>)}
             </div>
           </div>

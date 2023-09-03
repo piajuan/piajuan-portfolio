@@ -1,4 +1,10 @@
-import { geh, smartxbts, ispyattheshack, lusogisip, techStackIcons } from "../assets"
+import { 
+    geh, 
+    smartxbts, 
+    ispyattheshack, 
+    lusogisip,
+    featuredImages
+} from "../assets"
 
 import html from "../assets/tech/html.svg"
 import css from "../assets/tech/css.svg"
@@ -12,6 +18,7 @@ import jquery from "../assets/tech/jquery.svg"
 import vscode from "../assets/tech/vscode.svg"
 import xd from "../assets/tech/xd.svg"
 import figma from "../assets/tech/figma.svg"
+import swiper from "../assets/tech/swiper.svg"
 
 
 export const landingFeaturedProjects = [
@@ -62,11 +69,11 @@ export const aLittleAboutMe = [
 
 export const featuredProjects = [
     {
-        thumb: geh,
-        title: ["NTC", "InfoCenter Kiosk"],
-        desc: "Lorem ipsum dolor",
+        thumb: featuredImages.todo.thumb,
+        title: ["FrontendMentor", "Todo App"],
+        desc: "A Todo app that has dark/light theme toggle and drag & drop reordering feature.",
         techSvg: [react, vite],
-        carouselMedia: [],
+        carouselMedia: featuredImages.todo.slides,
         about: "A classic todo app with a few added features as part of the frontendmentor challenge. The user can:",
         features: [
             "View the optimal layout for the app depending on their device's screen size",
@@ -78,46 +85,26 @@ export const featuredProjects = [
             "Toggle light and dark mode",
             "Drag and drop to reorder items on the list"
         ],
-        techText: ["ReactJS", "Vite"]
+        techText: ["ReactJS", "Vite"],
+        externalLink: "https://react-todo-app-piajuan.vercel.app/"
     },
     {
-        thumb: geh,
-        title: ["Virtual", "Door"],
-        desc: "Lorem ipsum dolor",
-        techSvg: [react, vite],
-        carouselMedia: [],
-        about: "A classic todo app with a few added features as part of the frontendmentor challenge. The user can:",
+        thumb: featuredImages.ntcVidwall.thumb,
+        title: ["NTC", "InfoPanel Kiosk"],
+        desc: "A kiosk designed to provide info about OPS-DPS and User Manual/Walk through for applicants.",
+        techSvg: [html, sass, bootstrap, jquery, swiper],
+        carouselMedia: featuredImages.ntcVidwall.slides,
+        about: "The OPS-DPS Information Kiosk is a versatile HTML project designed to provide comprehensive information about OPS-DPS (Office of Public Service - Digital Public Service) and its various components. This kiosk is optimized for both landscape and portrait orientations to ensure accessibility and ease of use for all visitors. Key Sections are",
         features: [
-            "View the optimal layout for the app depending on their device's screen size",
-            "Add new todos to the list",
-            "Mark todos as complete",
-            "Delete todos from the list",
-            "Filter by all/active/complete todos",
-            "Clear all completed todos",
-            "Toggle light and dark mode",
-            "Drag and drop to reorder items on the list"
+            "Introduction to OPS-DPS",
+            "How-To Videos in navigating the OPS-DPS website",
+            "Viewing of Citizen's Charter",
+            "Credits"
         ],
-        techText: ["ReactJS", "Vite"]
-    },
-    {
-        thumb: smartxbts,
-        title: ["Sample", "Idk"],
-        desc: "Lorem ipsum dolor",
-        techSvg: [react, vite],
-        carouselMedia: [],
-        about: "A classic todo app with a few added features as part of the frontendmentor challenge. The user can:",
-        features: [
-            "View the optimal layout for the app depending on their device's screen size",
-            "Add new todos to the list",
-            "Mark todos as complete",
-            "Delete todos from the list",
-            "Filter by all/active/complete todos",
-            "Clear all completed todos",
-            "Toggle light and dark mode",
-            "Drag and drop to reorder items on the list"
-        ],
-        techText: ["ReactJS", "Vite"]
-    },
+        techText: ["HTML", "SASS", "Bootstrap", "JQuery", "SwiperJS"],
+        externalLink: null,
+    }
+   
 ]
 
 export const archives = [

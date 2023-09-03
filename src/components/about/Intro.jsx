@@ -3,10 +3,10 @@ import { aboutVid, tagline } from "../../assets"
 
 const Intro = () => {
   return (
-    <section className='h-[calc(100vh-56px)] p-4'>
+    <section className='h-[calc(100vh-56px)] container mx-auto p-4'>
         <div className='relative h-full overflow-hidden rounded-lg flex flex-col lg:items-end justify-center'>
             <div className='absolute top-0 left-0 w-full h-full overflow-hidden'>
-                <video className='absolute right-0 w-full h-full origin-right object-cover translate-x-[-12vw]' autoPlay={true} muted loop>
+                <video className='absolute left-0 top-0 w-[70%] h-full object-cover object-[40%_12%] translate-x-[-10%]' autoPlay={true} muted loop>
                     <source src={aboutVid} type="video/mp4"/>
                 </video>
 

@@ -1,8 +1,18 @@
-// featured projects
+// landing featured projects
 import geh from "./featured/geh.jpg"
 import ispyattheshack from "./featured/ispyattheshack.jpg"
 import smartxbts from "./featured/smartxbts.jpg"
 import lusogisip from "./featured/lusogisip.jpg"
+
+// works - featured
+import todoThumb from "./featured/todo/thumb.png"
+import todo1 from "./featured/todo/slide1.gif"
+import todo2 from "./featured/todo/slide2.jpg"
+
+import ntcVidwallThumb from "./featured/ntc-vidwall/thumb.jpg"
+import ntcVidwall1 from "./featured/ntc-vidwall/slide1.gif"
+import ntcVidwall2 from "./featured/ntc-vidwall/slide2.jpg"
+
 
 // archives
 import broombroom from "./archives/broombroom.png"
@@ -27,6 +37,7 @@ import jquery from "./tech/jquery.svg"
 import vscode from "./tech/vscode.svg"
 import xd from "./tech/xd.svg"
 import figma from "./tech/figma.svg"
+import swiper from "./tech/swiper.svg"
 
 import hiMemoji from "./hi-memoji.svg"
 
@@ -52,10 +63,21 @@ export {
     lusogisip,
     hiMemoji,
     aboutVid,
-    tagline
+    tagline,
 }
 
 export const techStackIcons = [html, css, js, react, vite, sass, tailwind, bootstrap, jquery, vscode, xd, figma]
+
+export const featuredImages = {
+    todo: {
+        thumb: todoThumb,
+        slides: [todo1, todo2]
+    },
+    ntcVidwall: {
+        thumb: ntcVidwallThumb,
+        slides: [ntcVidwall1, ntcVidwall2]
+    }
+}
 
 // export const techStackIcons = [
 //     {

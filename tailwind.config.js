@@ -17,6 +17,7 @@ export default {
           200: "#1D2021",
           300: "#181a1b",
           400: "#161819",
+          500: "#26292B",
         },
         // shadcn
         border: "hsl(var(--border))",
