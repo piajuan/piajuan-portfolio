@@ -45,7 +45,8 @@ const ProjectSheet = ({proj}) => {
                             }
                     </Swiper>
 
-                    <span className='dark:text-white/50 text-right text-xs -mt-3'>Swipe to view other screenshots</span>
+                    { proj.carouselMedia.length > 1 &&  <span className='dark:text-white/50 text-right text-xs -mt-3'>Swipe to view more</span> }
+                     {/* <span className='dark:text-white/50 text-right text-xs -mt-3'>{proj.carouselMedia.length}</span>  */}
 
                     <div>
                         <h3 className='mb-2 text-rg font-tertiary opacity-[0.4] uppercase dark:text-white'>About</h3>
@@ -72,7 +73,7 @@ const ProjectSheet = ({proj}) => {
                
                { proj.externalLink &&  <Button asChild className='rounded-none text-[1rem]'>
                     <a href={proj.externalLink} target="_blank">
-                        View the project <LucideExternalLink size={16} className='ml-2' /> 
+                        {proj.ctaText} <LucideExternalLink size={16} className='ml-2' /> 
                     </a>
                </Button>}
                

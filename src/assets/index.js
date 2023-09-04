@@ -1,6 +1,5 @@
 // landing featured projects
 import geh from "./featured/geh.jpg"
-import ispyattheshack from "./featured/ispyattheshack.jpg"
 import smartxbts from "./featured/smartxbts.jpg"
 import lusogisip from "./featured/lusogisip.jpg"
 
@@ -16,6 +15,9 @@ import ntcVidwall2 from "./featured/ntc-vidwall/slide2.jpg"
 import gehThumb from "./featured/geh/thumb.jpg"
 import geh1 from "./featured/geh/slide1.gif"
 import geh2 from "./featured/geh/slide2.gif"
+
+import shkThumb from "./featured/shk/thumb.jpg"
+import shk1 from "./featured/shk/slide1.gif"
 
 
 // archives
@@ -63,7 +65,7 @@ import tent from "./about/tent.gif"
 export {
     geh, 
     smartxbts, 
-    ispyattheshack,
+    shkThumb,
     lusogisip,
     hiMemoji,
     aboutVid,
@@ -84,7 +86,11 @@ export const featuredImages = {
     geh: {
         thumb: gehThumb,
         slides: [geh1, geh2]
-    }
+    },
+    shk: {
+        thumb: shkThumb,
+        slides: [shk1]
+    },
 }
 
 // export const techStackIcons = [

@@ -1,7 +1,7 @@
 import { 
     geh, 
     smartxbts, 
-    ispyattheshack, 
+    shkThumb, 
     lusogisip,
     featuredImages
 } from "../assets"
@@ -26,19 +26,22 @@ export const landingFeaturedProjects = [
         thumb: geh,
         projectName1: "Globe",
         projectName2: "Easyhub",
-        role: "Frontend Development"
+        role: "Frontend Development",
+        ctaText: "View the Project"
     },
     {
         thumb: smartxbts,
         projectName1: "Smart",
         projectName2: "xBTS",
-        role: "Frontend Development"
+        role: "Frontend Development",
+        ctaText: "View the Project"
     },
     {
-        thumb: ispyattheshack,
+        thumb: shkThumb,
         projectName1: "ISpyAt",
         projectName2: "TheShack",
-        role: "Frontend Development"
+        role: "Frontend Development",
+        ctaText: "View the Project"
     },
     {
         thumb: lusogisip,
@@ -87,11 +90,12 @@ export const featuredProjects = [
         ],
         techText: ["ReactJS", "Vite"],
         externalLink: "https://react-todo-app-piajuan.vercel.app/",
-        role: "Frontend Development"
+        role: "Frontend Development",
+        ctaText: "View the Project"
     },
     {
         thumb: featuredImages.ntcVidwall.thumb,
-        title: ["NTC", "InfoPanel Kiosk"],
+        title: ["NTC", "InfoPanel"],
         desc: "A kiosk designed to provide info about OPS-DPS and User Manual/Walk through for applicants.",
         techSvg: [html, sass, bootstrap, jquery, swiper],
         carouselMedia: featuredImages.ntcVidwall.slides,
@@ -104,21 +108,39 @@ export const featuredProjects = [
         ],
         techText: ["HTML", "SASS", "Bootstrap", "JQuery", "SwiperJS"],
         externalLink: null,
-        role: "Frontend Development"
+        role: "Frontend Development",
+        ctaText: "View the Project"
     },
     {
         thumb: featuredImages.geh.thumb,
         title: ["Globe", "EasyHub"],
-        desc: "An interactive one-stop shop for all essential needs -- shop, pay, explore, and access info about customer service support",
+        desc: "An interactive one-stop shop for all essential needs —shop, pay, explore, and access info about customer service support.",
         techSvg: [html, sass, bootstrap, jquery, swiper],
         carouselMedia: featuredImages.geh.slides,
-        about: "",
+        about: "EasyHub is an interactive one-stop shop for Globe customers. Within Shop and Care Zone, users can:",
         features: [
-            ""
+            "browse through Globe products and services",
+            "scan QR code scan, and be redirected to online shops, where you can process payments and delivery requests",
+            "discover the latest promos",
+            "find detailed guides that walk you through the process of booking repairs and addressing customer service issues"
         ],
         techText: ["HTML", "SASS", "Bootstrap", "JQuery", "SwiperJS", "ScrollReveal"],
         externalLink: "https://www.globe.com.ph/about-us/newsroom/consumer/globe-easyhub-best-in-class-retail-innovation.html",
-        role: "Frontend Development"
+        role: "Frontend Development",
+        ctaText: "Read article"
+    },
+    {
+        thumb: featuredImages.shk.thumb,
+        title: ["I Spy At", "The Shack"],
+        desc: "",
+        techSvg: [html, sass, bootstrap, jquery],
+        carouselMedia: featuredImages.shk.slides,
+        about: "",
+        features: [],
+        techText: ["HTML", "SASS", "Bootstrap", "JQuery", "HTML2Canvas"],
+        externalLink: "https://www.facebook.com/reel/5762810997180476",
+        role: "Frontend Development",
+        ctaText: "View Shake Shack's FB Post"
     }
    
 ]
