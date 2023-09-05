@@ -46,7 +46,6 @@ const ProjectSheet = ({proj}) => {
                     </Swiper>
 
                     { proj.carouselMedia.length > 1 &&  <span className='dark:text-white/50 text-right text-xs -mt-3'>Swipe to view more</span> }
-                     {/* <span className='dark:text-white/50 text-right text-xs -mt-3'>{proj.carouselMedia.length}</span>  */}
 
                     <div>
                         <h3 className='mb-2 text-rg font-tertiary opacity-[0.4] uppercase dark:text-white'>About</h3>
@@ -69,10 +68,21 @@ const ProjectSheet = ({proj}) => {
                             {proj.techText.map(item => <Pill>{item}</Pill>)}
                         </div>
                     </div>
+
+                    {/* { proj.externalLink.length > 1 &&  
+                        <div>
+                            <h3 className='mb-2 text-rg font-tertiary opacity-[0.4] uppercase dark:text-white'>Role</h3>
+                            <ul className='list-disc pl-6'>
+                                {proj.externalLink.map(item => (
+                                    <li className='dark:text-white'>{item}</li>
+                                ))}
+                            </ul>
+                        </div>
+                    } */}
                 </div>
                
                { proj.externalLink &&  <Button asChild className='rounded-none text-[1rem]'>
-                    <a href={proj.externalLink} target="_blank">
+                    <a href={proj.externalLink[0]} target="_blank">
                         {proj.ctaText} <LucideExternalLink size={16} className='ml-2' /> 
                     </a>
                </Button>}

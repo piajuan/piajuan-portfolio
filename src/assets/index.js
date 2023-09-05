@@ -1,6 +1,5 @@
 // landing featured projects
 import geh from "./featured/geh.jpg"
-import smartxbts from "./featured/smartxbts.jpg"
 import lusogisip from "./featured/lusogisip.jpg"
 
 // works - featured
@@ -18,6 +17,15 @@ import geh2 from "./featured/geh/slide2.gif"
 
 import shkThumb from "./featured/shk/thumb.jpg"
 import shk1 from "./featured/shk/slide1.gif"
+
+import btsThumb from "./featured/smartxbts/thumb.gif"
+import bts1 from "./featured/smartxbts/slide1.gif"
+import bts2 from "./featured/smartxbts/slide2.gif"
+import bts3 from "./featured/smartxbts/slide3.gif"
+import bts4 from "./featured/smartxbts/slide4.gif"
+import bts5 from "./featured/smartxbts/slide5.png"
+import bts6 from "./featured/smartxbts/slide6.png"
+
 
 
 // archives
@@ -64,7 +72,7 @@ import tent from "./about/tent.gif"
 
 export {
     geh, 
-    smartxbts, 
+    btsThumb,
     shkThumb,
     lusogisip,
     hiMemoji,
@@ -90,6 +98,10 @@ export const featuredImages = {
     shk: {
         thumb: shkThumb,
         slides: [shk1]
+    },
+    bts: {
+        thumb: btsThumb,
+        slides: [bts1,bts2,bts3,bts4,bts5,bts6,]
     },
 }
 

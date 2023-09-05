@@ -1,6 +1,6 @@
 import { 
     geh, 
-    smartxbts, 
+    btsThumb, 
     shkThumb, 
     lusogisip,
     featuredImages
@@ -30,7 +30,7 @@ export const landingFeaturedProjects = [
         ctaText: "View the Project"
     },
     {
-        thumb: smartxbts,
+        thumb: btsThumb,
         projectName1: "Smart",
         projectName2: "xBTS",
         role: "Frontend Development",
@@ -75,7 +75,7 @@ export const featuredProjects = [
         thumb: featuredImages.todo.thumb,
         title: ["FrontendMentor", "Todo App"],
         desc: "A Todo app that has dark/light theme toggle and drag & drop reordering feature.",
-        techSvg: [react, vite],
+        techSvg: [react, vite, tailwind],
         carouselMedia: featuredImages.todo.slides,
         about: "A classic todo app with a few added features as part of the frontendmentor challenge. The user can:",
         features: [
@@ -88,7 +88,7 @@ export const featuredProjects = [
             "Toggle light and dark mode",
             "Drag and drop to reorder items on the list"
         ],
-        techText: ["ReactJS", "Vite"],
+        techText: ["ReactJS", "Vite", "TailwindCSS"],
         externalLink: "https://react-todo-app-piajuan.vercel.app/",
         role: "Frontend Development",
         ctaText: "View the Project"
@@ -125,24 +125,36 @@ export const featuredProjects = [
             "find detailed guides that walk you through the process of booking repairs and addressing customer service issues"
         ],
         techText: ["HTML", "SASS", "Bootstrap", "JQuery", "SwiperJS", "ScrollReveal"],
-        externalLink: "https://www.globe.com.ph/about-us/newsroom/consumer/globe-easyhub-best-in-class-retail-innovation.html",
+        externalLink: ["https://www.globe.com.ph/about-us/newsroom/consumer/globe-easyhub-best-in-class-retail-innovation.html"],
         role: "Frontend Development",
         ctaText: "Read article"
     },
     {
         thumb: featuredImages.shk.thumb,
-        title: ["I Spy At", "The Shack"],
-        desc: "",
-        techSvg: [html, sass, bootstrap, jquery],
+        title: ["ISpyAt", "TheShack"],
+        desc: "A web-based app dedicated for the opening of new Shake Shack branch in SM North Edsa.",
+        techSvg: [html, sass, bootstrap, js],
         carouselMedia: featuredImages.shk.slides,
+        about: "I Spy At The Shack is a web app that allows Shake Shack customers to find and collect items using clues provided weekly on the Shake Shack Facebook Page. Users simply need to snap a photo of the required item at the Shake Shack North Edsa branch mural, and there's no need to install anything.",
+        features: [],
+        techText: ["HTML", "SASS", "Bootstrap", "JavaScript", "HTML2Canvas"],
+        externalLink: ["https://www.facebook.com/reel/5762810997180476"],
+        role: "Frontend Development",
+        ctaText: "View Shake Shack PH's FB Reel"
+    },
+    {
+        thumb: featuredImages.bts.thumb,
+        title: ["Smart", "xBTS"],
+        desc: "",
+        techSvg: [html, sass, bootstrap, js, swiper],
+        carouselMedia: featuredImages.bts.slides,
         about: "",
         features: [],
-        techText: ["HTML", "SASS", "Bootstrap", "JQuery", "HTML2Canvas"],
-        externalLink: "https://www.facebook.com/reel/5762810997180476",
+        techText: ["HTML", "SASS", "Bootstrap", "JavaScript", "Swiper", "lightGallery", "ScrollReveal", "RellaxJS"],
+        externalLink: ["http://www.anagonzales.com/2021/04/smart-bts-exclusive-website-for-smart.html", "https://www.spot.ph/entertainment/movies-music-tv/85944/smart-x-bts-live-your-passion-with-purpose-launch-a588-20210422-lfrm", "https://www.bandwagon.asia/articles/bts-smart-commercial-filipino-army-fans-watch-passion-purpose-dynamite-life-goes-onhybe-corporation-big-hit-music-philippines-2021"],
         role: "Frontend Development",
-        ctaText: "View Shake Shack's FB Post"
-    }
-   
+        ctaText: "Read related blog"
+    },
 ]
 
 export const archives = [
