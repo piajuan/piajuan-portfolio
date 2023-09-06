@@ -89,7 +89,7 @@ export const featuredProjects = [
             "Drag and drop to reorder items on the list"
         ],
         techText: ["ReactJS", "Vite", "TailwindCSS"],
-        externalLink: "https://react-todo-app-piajuan.vercel.app/",
+        externalLink: ["https://react-todo-app-piajuan.vercel.app/"],
         role: "Frontend Development",
         ctaText: "View the Project"
     },
@@ -107,7 +107,7 @@ export const featuredProjects = [
             "Credits"
         ],
         techText: ["HTML", "SASS", "Bootstrap", "JQuery", "SwiperJS"],
-        externalLink: null,
+        externalLink: [null],
         role: "Frontend Development",
         ctaText: "View the Project"
     },
@@ -145,12 +145,12 @@ export const featuredProjects = [
     {
         thumb: featuredImages.bts.thumb,
         title: ["Smart", "xBTS"],
-        desc: "",
+        desc: "An exclusive website for SMART Subscribers as part the online launch of Smart X BTS Campaign.",
         techSvg: [html, sass, bootstrap, js, swiper],
         carouselMedia: featuredImages.bts.slides,
-        about: "",
-        features: [],
-        techText: ["HTML", "SASS", "Bootstrap", "JavaScript", "Swiper", "lightGallery", "ScrollReveal", "RellaxJS"],
+        about: "As part of the BTS’s 'Live Your Passion with Purpose' campaign, SMART launched a mobile-first microsite where SMART subscribers can gain access to exclusive BTS content and be able to use their devices a digital lightstick. The site can only be accessed by SMART data via mobile devices, and consists of: ",
+        features: ["Coming Soon", "Countdown that started a few days before the TVC Launch", "Digital Mobile Lightstick Video", "Exclusive videos such as Interviews and Behind the Scenes for PH fans", "Hi-Res Photo Gallery (Images above were blurred for demo purposes only", "Photocards", "Error page for non-SMART subscribers"],
+        techText: ["HTML", "SASS", "CSS Animations", "Bootstrap", "JavaScript", "Swiper", "lightGallery", "ScrollReveal", "RellaxJS"],
         externalLink: ["http://www.anagonzales.com/2021/04/smart-bts-exclusive-website-for-smart.html", "https://www.spot.ph/entertainment/movies-music-tv/85944/smart-x-bts-live-your-passion-with-purpose-launch-a588-20210422-lfrm", "https://www.bandwagon.asia/articles/bts-smart-commercial-filipino-army-fans-watch-passion-purpose-dynamite-life-goes-onhybe-corporation-big-hit-music-philippines-2021"],
         role: "Frontend Development",
         ctaText: "Read related blog"

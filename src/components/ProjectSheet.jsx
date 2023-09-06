@@ -69,19 +69,23 @@ const ProjectSheet = ({proj}) => {
                         </div>
                     </div>
 
-                    {/* { proj.externalLink.length > 1 &&  
+                    { proj.externalLink.length > 1 && (
                         <div>
-                            <h3 className='mb-2 text-rg font-tertiary opacity-[0.4] uppercase dark:text-white'>Role</h3>
+                            <h3 className='mb-2 text-rg font-tertiary opacity-[0.4] uppercase dark:text-white'>Related Articles/Blogs</h3>
                             <ul className='list-disc pl-6'>
-                                {proj.externalLink.map(item => (
-                                    <li className='dark:text-white'>{item}</li>
-                                ))}
+                                { proj.externalLink.map(item => (
+                                        <li className='dark:text-white'>
+                                            <a href={item} target='_blank' className='hyperlink hyperlink--underline truncate block relative max-w-[80%]'> {item} </a>
+                                        </li> 
+                                    )
+                                )}
                             </ul>
                         </div>
-                    } */}
+                    ) }
+                    
                 </div>
                
-               { proj.externalLink &&  <Button asChild className='rounded-none text-[1rem]'>
+               { proj.externalLink[0] != null &&  <Button asChild className='rounded-none text-[1rem]'>
                     <a href={proj.externalLink[0]} target="_blank">
                         {proj.ctaText} <LucideExternalLink size={16} className='ml-2' /> 
                     </a>
