@@ -7,7 +7,7 @@ const AppLayout = () => {
   return (
     <div className="dark:bg-dark-400 min-h-screen">
         <Header/>
-            <main className='pt-[56px]'> <Outlet /> </main>
+            <main> <Outlet /> </main>
         <Footer/>
     </div>
   )

@@ -7,7 +7,7 @@ import ProjectSheet from '../components/ProjectSheet'
 const Works = () => {
   return (
     <>
-        <h2 className='text-8xl font-primary text-center my-6 px-4 dark:text-white'>stuff i've worked on</h2>
+        <h2 className='text-6xl md:text-8xl font-primary text-center my-6 px-4 dark:text-white'>stuff i've worked on</h2>
         <section>
           <div className="container mx-auto">
             <h3 className='font-tertiary uppercase text-center dark:text-white'>Featured Projects</h3>

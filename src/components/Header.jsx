@@ -36,7 +36,7 @@ const Header = () => {
   })
 
   return (
-    <header className={`p-4 fixed top-0 left-0 w-full z-50 ${ scrollDirection === "down" ? "-top-[56px]" : "top-0"} ${!isHeaderOnTop ? "header--onScroll" : "bg-transparent" } transition-all duration-500`}>
+    <header className={`p-4 sticky top-0 left-0 w-full z-50 ${ scrollDirection === "down" ? "translate-y-[-56px]" : "translate-y-0"} ${ !isHeaderOnTop ? "header--onScroll" : "bg-transparent" } transition-all duration-500`}>
         <div className="container mx-auto">
             <nav className="flex justify-between items-center">
                 <Link to={"/"} className='font-tertiary uppercase dark:text-white'>Pia Juan</Link>

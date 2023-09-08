@@ -14,12 +14,12 @@ import {
 const Archives = () => {
   return (
     <section className='dark:bg-dark-300'>
-        <div className="container mx-auto m-8 py-16 max-w-[1000px]">
+        <div className="container mx-auto m-8 py-16 max-w-[1200px]">
             <h3 className='font-tertiary uppercase text-center mb-4 dark:text-white'>Archives</h3>
             <Table>
                 <TableHeader>
                 <TableRow>
-                    <TableHead className="w-[100px]">Year</TableHead>
+                    <TableHead>Year</TableHead>
                     <TableHead>Project</TableHead>
                     <TableHead>Made At</TableHead>
                     <TableHead>Role</TableHead>
@@ -29,13 +29,13 @@ const Archives = () => {
                 </TableHeader>
                 <TableBody>
                 {archives.map((archive) => (
-                    <TableRow key={archive.project} className='cursor-pointer transition duration-200 opacity-[0.7] hover:opacity-[1]'>
-                        <TableCell className="font-medium">{archive.year}</TableCell>
-                        <TableCell>{archive.project}</TableCell>
+                    <TableRow key={archive.project} className='group cursor-pointer transition-all opacity-[0.7] hover:opacity-[1] hover:bg-dark-200 [&>*]:font-mono'>
+                        <TableCell className="text-primary">{archive.year}</TableCell>
+                        <TableCell className="font-bold">{archive.project}</TableCell>
                         <TableCell>{archive.company}</TableCell>
                         <TableCell>{archive.role}</TableCell>
                         <TableCell>{archive.tech}</TableCell>
-                        <TableCell> { archive.link ? <LucideArrowUpRight size={20} className='ml-auto mr-0'/> :  <LucideEye size={20} className='ml-auto mr-0'/>} </TableCell>
+                        <TableCell> { archive.link ? <LucideArrowUpRight size={20} className='ml-auto mr-0 hover:text-secondary'/> :  <LucideEye size={20} className='ml-auto mr-0 hover:text-secondary'/>} </TableCell>
                     </TableRow>
                 ))}
                 </TableBody>
