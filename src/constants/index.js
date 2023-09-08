@@ -2,7 +2,7 @@ import {
     geh, 
     btsThumb, 
     shkThumb, 
-    lusogisip,
+    lusogThumb,
     featuredImages
 } from "../assets"
 
@@ -44,7 +44,7 @@ export const landingFeaturedProjects = [
         ctaText: "View the Project"
     },
     {
-        thumb: lusogisip,
+        thumb: lusogThumb,
         projectName1: "DOH",
         projectName2: "Lusog-Isip",
         role: "Frontend Development, UI/UX Design"
@@ -130,17 +130,17 @@ export const featuredProjects = [
         ctaText: "Read article"
     },
     {
-        thumb: featuredImages.shk.thumb,
-        title: ["ISpyAt", "TheShack"],
-        desc: "A web-based app dedicated for the opening of new Shake Shack branch in SM North Edsa.",
-        techSvg: [html, sass, bootstrap, js],
-        carouselMedia: featuredImages.shk.slides,
-        about: "I Spy At The Shack is a web app that allows Shake Shack customers to find and collect items using clues provided weekly on the Shake Shack Facebook Page. Users simply need to snap a photo of the required item at the Shake Shack North Edsa branch mural, and there's no need to install anything.",
+        thumb: featuredImages.lusog.thumb,
+        title: ["DOH", "LusogIsip"],
+        desc: "",
+        techSvg: [html, sass, bootstrap, js, swiper],
+        carouselMedia: featuredImages.lusog.slides,
+        about: "",
         features: [],
-        techText: ["HTML", "SASS", "Bootstrap", "JavaScript", "HTML2Canvas"],
-        externalLink: ["https://www.facebook.com/reel/5762810997180476"],
+        techText: ["HTML", "SASS", "CSS Animations", "Bootstrap", "JavaScript", "Swiper", "lightGallery", "ScrollReveal", "RellaxJS"],
+        externalLink: [],
         role: "Frontend Development",
-        ctaText: "View Shake Shack PH's FB Reel"
+        ctaText: "Read related blog"
     },
     {
         thumb: featuredImages.bts.thumb,
@@ -154,6 +154,19 @@ export const featuredProjects = [
         externalLink: ["http://www.anagonzales.com/2021/04/smart-bts-exclusive-website-for-smart.html", "https://www.spot.ph/entertainment/movies-music-tv/85944/smart-x-bts-live-your-passion-with-purpose-launch-a588-20210422-lfrm", "https://www.bandwagon.asia/articles/bts-smart-commercial-filipino-army-fans-watch-passion-purpose-dynamite-life-goes-onhybe-corporation-big-hit-music-philippines-2021"],
         role: "Frontend Development",
         ctaText: "Read related blog"
+    },
+    {
+        thumb: featuredImages.shk.thumb,
+        title: ["ISpyAt", "TheShack"],
+        desc: "A web-based app dedicated for the opening of new Shake Shack branch in SM North Edsa.",
+        techSvg: [html, sass, bootstrap, js],
+        carouselMedia: featuredImages.shk.slides,
+        about: "I Spy At The Shack is a web app that allows Shake Shack customers to find and collect items using clues provided weekly on the Shake Shack Facebook Page. Users simply need to snap a photo of the required item at the Shake Shack North Edsa branch mural, and there's no need to install anything.",
+        features: [],
+        techText: ["HTML", "SASS", "Bootstrap", "JavaScript", "HTML2Canvas"],
+        externalLink: ["https://www.facebook.com/reel/5762810997180476"],
+        role: "Frontend Development",
+        ctaText: "View Shake Shack PH's FB Reel"
     },
 ]
 

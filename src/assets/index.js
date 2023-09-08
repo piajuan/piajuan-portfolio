@@ -27,6 +27,13 @@ import bts5 from "./featured/smartxbts/slide5.png"
 import bts6 from "./featured/smartxbts/slide6.png"
 
 
+import lusogThumb from "./featured/lusog-isip/thumb.gif"
+import lusog1 from "./featured/lusog-isip/slide1.jpg"
+import lusog2 from "./featured/lusog-isip/slide2.jpg"
+import lusog3 from "./featured/lusog-isip/slide3.jpg"
+import lusog4 from "./featured/lusog-isip/slide4.jpg"
+import lusog5 from "./featured/lusog-isip/slide5.jpg"
+import lusog6 from "./featured/lusog-isip/slide6.jpg"
 
 // archives
 import broombroom from "./archives/broombroom.png"
@@ -74,7 +81,7 @@ export {
     geh, 
     btsThumb,
     shkThumb,
-    lusogisip,
+    lusogThumb,
     hiMemoji,
     aboutVid,
     tagline,
@@ -102,6 +109,10 @@ export const featuredImages = {
     bts: {
         thumb: btsThumb,
         slides: [bts1,bts2,bts3,bts4,bts5,bts6,]
+    },
+    lusog: {
+        thumb: lusogThumb,
+        slides: [lusog1, lusog2, lusog3, lusog4, lusog5, lusog6]
     },
 }
 
