@@ -132,15 +132,15 @@ export const featuredProjects = [
     {
         thumb: featuredImages.lusog.thumb,
         title: ["DOH", "LusogIsip"],
-        desc: "",
-        techSvg: [html, sass, bootstrap, js, swiper],
+        desc: "The first mobile app for mental health and self-care culturally-adapted for the Philippines. ",
+        techSvg: [html, sass, jquery,],
         carouselMedia: featuredImages.lusog.slides,
-        about: "",
+        about: "Lusog-Isip is the first mobile app for mental health and self-care culturally-adapted for the Philippines. It uses evidence-based screening tools and interventions to help you on your journey towards better overall well-being and healthier coping strategies.",
         features: [],
-        techText: ["HTML", "SASS", "CSS Animations", "Bootstrap", "JavaScript", "Swiper", "lightGallery", "ScrollReveal", "RellaxJS"],
-        externalLink: [],
-        role: "Frontend Development",
-        ctaText: "Read related blog"
+        techText: ["HTML", "SASS", "JQuery", "ScrollReveal"],
+        externalLink: ["https://lusog-isip.doh.gov.ph/"],
+        role: "Mobile UI/UX Design, Email Templates, Frontend Development",
+        ctaText: "Visit the website"
     },
     {
         thumb: featuredImages.bts.thumb,
