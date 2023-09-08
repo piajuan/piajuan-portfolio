@@ -130,6 +130,11 @@
 }
 
 @layer components {
+    .header--onScroll {
+        background-color: rgba(0, 0, 0, .3);
+        backdrop-filter: blur(15px);
+    }
+
     .btn-gradient {
         @apply bg-[linear-gradient(90deg,#5c7cbc,#eec877,#EDC571,#4768AC)] transition-all duration-500;
         background-size: 300% 100%;
@@ -146,7 +151,6 @@
         user-select: none;
         gap: var(--marquee-gap);
     }
-
 
     .marquee__content {
         flex-shrink: 0;
