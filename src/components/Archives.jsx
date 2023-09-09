@@ -14,7 +14,7 @@ import {
 const Archives = () => {
   return (
     <section className='dark:bg-dark-300'>
-        <div className="container mx-auto m-8 py-16 max-w-[1200px]">
+        <div className="container mx-auto m-8 py-16 max-w-[1000px]">
             <h3 className='font-tertiary uppercase text-center mb-4 dark:text-white'>Archives</h3>
             <Table>
                 <TableHeader>
@@ -29,7 +29,7 @@ const Archives = () => {
                 </TableHeader>
                 <TableBody>
                 {archives.map((archive) => (
-                    <TableRow key={archive.project} className='group cursor-pointer transition-all opacity-[0.7] hover:opacity-[1] hover:bg-dark-200 [&>*]:font-mono'>
+                    <TableRow key={archive.project} className='group cursor-pointer transition-all opacity-[0.7] hover:opacity-[1] hover:bg-dark-200 [&>*]:font-mono [&>*]:text-sm'>
                         <TableCell className="text-primary">{archive.year}</TableCell>
                         <TableCell className="font-bold">{archive.project}</TableCell>
                         <TableCell>{archive.company}</TableCell>

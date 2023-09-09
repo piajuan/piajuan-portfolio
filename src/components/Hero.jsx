@@ -1,8 +1,10 @@
 import React from 'react'
+import ScrollDown from './ScrollDown'
+import { Scroll } from 'lucide-react'
 
 const Hero = () => {
   return (
-    <div className='h-[calc(100vh-56px)] p-4'>
+    <div className='h-[calc(100vh-56px)] p-4 [&>*]:select-none'>
         <div className='relative h-full overflow-hidden rounded-lg bg-hero'>
             {/* start: blobs */}
             <div className='hero__blob absolute w-[150vh] aspect-square rounded-full dark:bg-[#E7C173] left-[20vw]'></div>
@@ -15,10 +17,11 @@ const Hero = () => {
                 {/* content */}
                 <h1 className='text-7xl text-left md:text-[7vw] lg:max-w-[70vw] mx-auto font-primary md:text-center leading-none'>I’m Pia  —frontend developer & designer</h1>
                 <p className='max-w-[500px] mt-5 mx-auto mb-14 md:mb-0 text-left md:text-center'>currently based in Metro Manila, Philippines with two years of experience -- passionate about delivering user-oriented interface designs</p>
+
+                <ScrollDown styles="top-[40%] right-[13%] w-[180px]"/>
             </div>
         </div>
     </div>
   )
 }
-
 export default Hero

@@ -1,11 +1,14 @@
 import React from 'react'
 import { hiMemoji } from '../assets'
+import BackToTop from './BackToTop'
 
 const Footer = () => {
   return (
-   <footer className='group overflow-hidden min-h-[600px] md:min-h-[550px] flex flex-col'>
+   <footer className='relative overflow-hidden min-h-[600px] md:min-h-[550px] flex flex-col'>
+      <BackToTop />
+
       <div className='container relative mx-auto py-10 flex-auto flex justify-end items-center'>
-        <div className='relative'>
+        <div className='group relative'>
           <h3 className='text-8xl md:text-[6vw] font-primary leading-none mb-1 text-right md:text-left dark:text-white'>it's your turn</h3>
           <p className='leading-none w-3/5 ml-auto mr-0 text-right md:w-full md:text-left md:ml-8 dark:text-white'> Get in touch for opportunities or just to say hi 👋🏼 </p>
 
