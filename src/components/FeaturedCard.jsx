@@ -2,7 +2,7 @@ import React from 'react'
 
 const FeaturedCard = ({thumb, projectName1, projectName2, role}) => {
   return (
-    <div className='group w-full cursor-pointer even:mt-20 md:even:mt-24'>
+    <div className='gs-proj-card group w-full cursor-pointer even:mt-20 md:even:mt-24'>
         <div className='relative overflow-hidden w-full rounded mb-5 aspect-square'>
             <img className='absolute w-full h-full opacity-[0.8] transition duration-400 group-hover:scale-[1.01] group-hover:opacity-100' src={thumb}/>
         </div>
