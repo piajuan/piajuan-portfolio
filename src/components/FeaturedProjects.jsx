@@ -3,8 +3,10 @@ import { useId } from 'react'
 import { landingFeaturedProjects } from "../constants"
 import FeaturedCard from "./FeaturedCard"
 import { Button } from "../components/ui/button"
+import { buttonVariants } from '../components/ui/button'
 import { gsap } from 'gsap' 
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { Link } from 'react-router-dom'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -59,7 +61,11 @@ const FeaturedProjects = () => {
             </div>
         </div>
 
-        <Button className='gs-proj-cta mx-auto mt-[10vh] md:mt-[20vh] flex'> see all projects </Button>
+         <div className='gs-proj-cta flex justify-center mt-[10vh] md:mt-[20vh]'>
+          <Link to={"/works"} className={buttonVariants({variant: "default"})}> see all projects </Link>
+         </div>
+       
+        {/* <Button className='gs-proj-cta mx-auto mt-[10vh] md:mt-[20vh] flex'> <a href="">see all projects</a>  </Button> */}
     </section>
   )
 }
