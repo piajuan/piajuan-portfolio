@@ -3,7 +3,7 @@ import React from 'react'
 
 const ProjectCard = ({proj}) => {
   return (
-    <div key={proj.title[1]} className='group w-full relative aspect-square overflow-hidden rounded cursor-pointer'>
+    <div key={proj.title[1]} className='gs-works__card group w-full relative aspect-square overflow-hidden rounded cursor-pointer'>
       <img src={proj.thumb} alt={proj.title[1]} className='transition-all duration-300 ease-slow-in-out group-hover:scale-105' />
 
       {/* info  when hovered */}
