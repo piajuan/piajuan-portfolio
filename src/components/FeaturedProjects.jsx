@@ -57,7 +57,7 @@ const FeaturedProjects = () => {
 
         <div className="container mx-auto px-4 md:px-20">
             <div className='grid grid-cols-2 justify-center gap-4 md:gap-20'>
-                {landingFeaturedProjects.map(proj => <FeaturedCard key={useId()} {...proj}/>)}
+                {landingFeaturedProjects.map(proj => <FeaturedCard key={useId()} { ...proj }/>)}
             </div>
         </div>
 

@@ -104,6 +104,11 @@
         @apply font-secondary;
     }
 
+    html,
+    body {
+        @apply overflow-x-hidden;
+    }
+    
     .container {
         @apply px-4;
     }
