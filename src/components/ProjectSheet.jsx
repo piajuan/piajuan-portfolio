@@ -58,8 +58,15 @@ const ProjectSheet = ({proj}) => {
                     </div>
 
                     <div>
-                        <h3 className='mb-2 text-rg font-tertiary opacity-[0.4] uppercase dark:text-white'>Role</h3>
-                        <span className='dark:text-white'>{proj.role}</span>
+
+                        <h3 className='mb-2 text-rg font-tertiary opacity-[0.4] uppercase dark:text-white'>{proj.credits ? 'Project Credits' : 'Role'}</h3>
+                        { proj.credits && proj.credits.map(info => {
+                            return <ul>
+                                <li className='dark:text-white'>{info.label}: {info.data}</li>
+                            </ul>
+                        })}
+
+                        { proj.role && <span class="dark:text-white">{proj.role}</span>}
                     </div>
                     
                     <div>

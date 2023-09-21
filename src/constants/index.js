@@ -27,27 +27,32 @@ export const landingFeaturedProjects = [
         projectName1: "Globe",
         projectName2: "Easyhub",
         role: "Frontend Development",
-        ctaText: "View the Project"
+        ctaText: "View the Project",
+        tag: "Made at HTech Corp.",
     },
     {
         thumb: btsThumb,
         projectName1: "Smart",
         projectName2: "xBTS",
         role: "Frontend Development",
-        ctaText: "View the Project"
+        ctaText: "View the Project",
+        tag: "Made at HTech Corp.",
     },
     {
         thumb: shkThumb,
         projectName1: "ISpyAt",
         projectName2: "TheShack",
         role: "Frontend Development",
-        ctaText: "View the Project"
+        ctaText: "View the Project",
+        tag: "Made at HTech Corp.",
     },
     {
         thumb: lusogThumb,
         projectName1: "DOH",
         projectName2: "Lusog-Isip",
-        role: "Frontend Development, UI/UX Design"
+        role: "Frontend Development, UI/UX Design",
+        ctaText: "View the Project",
+        tag: "Made at HTech Corp.",
     },
 ]
 
@@ -90,8 +95,9 @@ export const featuredProjects = [
         ],
         techText: ["ReactJS", "Vite", "TailwindCSS"],
         externalLink: ["https://react-todo-app-piajuan.vercel.app/"],
+        ctaText: "View the Project",
         role: "Frontend Development",
-        ctaText: "View the Project"
+        tag: "Personal Project",
     },
     {
         thumb: featuredImages.ntcVidwall.thumb,
@@ -108,8 +114,22 @@ export const featuredProjects = [
         ],
         techText: ["HTML", "SASS", "Bootstrap", "JQuery", "SwiperJS"],
         externalLink: [null],
-        role: "Frontend Development",
-        ctaText: "View the Project"
+        ctaText: "View the Project",
+        credits: [
+            {
+                label: 'Company',
+                data: 'HTech Corporation',
+            },
+            {
+                label: 'Role',
+                data: 'Frontend Development',
+            },
+            {
+                label: 'Team',
+                data: 'Collaborated w/ designers, backend developers, & QA testers',
+            },
+        ],
+        tag: "Made at HTech Corp.",
     },
     {
         thumb: featuredImages.geh.thumb,
@@ -126,8 +146,22 @@ export const featuredProjects = [
         ],
         techText: ["HTML", "SASS", "Bootstrap", "JQuery", "SwiperJS", "ScrollReveal"],
         externalLink: ["https://www.globe.com.ph/about-us/newsroom/consumer/globe-easyhub-best-in-class-retail-innovation.html"],
-        role: "Frontend Development",
-        ctaText: "Read article"
+        ctaText: "Read article",
+        credits: [
+            {
+                label: 'Company',
+                data: 'HTech Corporation',
+            },
+            {
+                label: 'Role',
+                data: 'Frontend Development',
+            },
+            {
+                label: 'Team',
+                data: 'Collaborated w/ designers, backend developers, & QA testers',
+            },
+        ],
+        tag: "Made at HTech Corp.",
     },
     {
         thumb: featuredImages.lusog.thumb,
@@ -139,8 +173,22 @@ export const featuredProjects = [
         features: [],
         techText: ["HTML", "SASS", "JQuery", "ScrollReveal"],
         externalLink: ["https://lusog-isip.doh.gov.ph/"],
-        role: "Mobile UI/UX Design, Email Templates, Frontend Development",
-        ctaText: "Visit the website"
+        ctaText: "Visit the website",
+        credits: [
+            {
+                label: 'Company',
+                data: 'HTech Corporation',
+            },
+            {
+                label: 'Roles',
+                data: 'Mobile UI/UX Design, Email Templates, Frontend Development',
+            },
+            {
+                label: 'Team',
+                data: 'Collaborated w/ designers, backend developers, & QA testers',
+            },
+        ],
+        tag: "Made at HTech Corp.",
     },
     {
         thumb: featuredImages.bts.thumb,
@@ -152,8 +200,22 @@ export const featuredProjects = [
         features: ["Coming Soon", "Countdown that started a few days before the TVC Launch", "Digital Mobile Lightstick Video", "Exclusive videos such as Interviews and Behind the Scenes for PH fans", "Hi-Res Photo Gallery (Images above were blurred for demo purposes only", "Photocards", "Error page for non-SMART subscribers"],
         techText: ["HTML", "SASS", "CSS Animations", "Bootstrap", "JavaScript", "Swiper", "lightGallery", "ScrollReveal", "RellaxJS"],
         externalLink: ["http://www.anagonzales.com/2021/04/smart-bts-exclusive-website-for-smart.html", "https://www.spot.ph/entertainment/movies-music-tv/85944/smart-x-bts-live-your-passion-with-purpose-launch-a588-20210422-lfrm", "https://www.bandwagon.asia/articles/bts-smart-commercial-filipino-army-fans-watch-passion-purpose-dynamite-life-goes-onhybe-corporation-big-hit-music-philippines-2021"],
-        role: "Frontend Development",
-        ctaText: "Read related blog"
+        ctaText: "Read related blog",
+        credits: [
+            {
+                label: 'Company',
+                data: 'HTech Corporation',
+            },
+            {
+                label: 'Role',
+                data: 'Frontend Development',
+            },
+            {
+                label: 'Team',
+                data: 'Collaborated w/ designers, backend developers, & QA testers',
+            },
+        ],
+        tag: "Made at HTech Corp.",
     },
     {
         thumb: featuredImages.shk.thumb,
@@ -165,8 +227,22 @@ export const featuredProjects = [
         features: [],
         techText: ["HTML", "SASS", "Bootstrap", "JavaScript", "HTML2Canvas"],
         externalLink: ["https://www.facebook.com/reel/5762810997180476"],
-        role: "Frontend Development",
-        ctaText: "View Shake Shack PH's FB Reel"
+        ctaText: "View Shake Shack PH's FB Reel",
+        credits: [
+            {
+                label: 'Company',
+                data: 'HTech Corporation',
+            },
+            {
+                label: 'Role',
+                data: 'Frontend Development',
+            },
+            {
+                label: 'Team',
+                data: 'Collaborated w/ designers, backend developers, & QA testers',
+            },
+        ],
+        tag: "Made at HTech Corp.",
     },
 ]
 
