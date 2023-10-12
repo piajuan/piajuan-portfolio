@@ -22,7 +22,7 @@ const Footer = () => {
       <div className='grow-0 py-3 border-white border-t'>
         <div className="container mx-auto flex justify-between items-center">
           <ul className='flex items-center gap-4'>
-            <li><a href="./src/assets/Sophia_Juan_CV_2023.pdf" target="_blank" className='uppercase dark:text-white'>Resume</a></li>
+            <li><a href="/Sophia_Juan_CV_2023.pdf" target="_blank" className='uppercase dark:text-white'>Resume</a></li>
             <li><a href="https://www.linkedin.com/in/sophiajuan/" target='_blank' className='uppercase dark:text-white'>LinkedIn</a></li>
           </ul>
           <a href="mailto:piajuan.dev@gmail.com" target="_top" className='group hyperlink flex items-center gap-1 text-sm [&>*]:transition-all [&>*]:ease-in-out [&>*]:duration-200 dark:text-white invisible md:visible'> <ArrowRight className='transition-all ease-in-out duration-300 -ml-4 opacity-0 group-hover:ml-0 group-hover:opacity-100' size={15} />  piajuan.dev@gmail.com</a>

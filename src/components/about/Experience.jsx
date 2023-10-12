@@ -10,7 +10,7 @@ const Experience = () => {
             <div className="flex flex-col gap-6 md:gap-4 lg:flex-row justify-between">
                 <div className='w-full lg:w-3/5'>
                     <h2 className='text-6xl mb-6 md:text-8xl xl:text-9xl font-primary leading-none dark:text-white'>professional experience</h2>
-                    <a href="./src/assets/Sophia_Juan_CV_2023.pdf" target="_blank" className='lg:mt-8 inline-flex items-center dark:text-white hyperlink hyperlink--underline'>see full resume <LucideArrowRight size={16} className='ml-2'/> </a>
+                    <a href="/Sophia_Juan_CV_2023.pdf" target="_blank" className='lg:mt-8 inline-flex items-center dark:text-white hyperlink hyperlink--underline'>see full resume <LucideArrowRight size={16} className='ml-2'/> </a>
                 </div>
                 <div className="w-full lg:w-2/5">
                     <ul className='flex flex-col'>
