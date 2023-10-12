@@ -63,7 +63,7 @@ import swiper from "./tech/swiper.svg"
 import hiMemoji from "./hi-memoji.svg"
 
 // about
-import aboutVid from "./about/working.mp4"
+import aboutVid from "./about/working.gif"
 import tagline from "./tagline.svg"
 
 import reading from "./about/reading.jpg"

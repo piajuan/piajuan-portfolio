@@ -87,6 +87,12 @@ export const experience = [
     },
 ]
 
+export const techStack = [
+    "HTML, CSS, JavaScript, TypeScript", // languages
+    "ReactJS, JQuery, TailwindCSS, SASS, Bootstrap", // frameworks
+    "Git, NPM, Vite, VS Code, Figma, Adobe XD", // tools/others
+]
+
 export const aLittleAboutMe = [
     {
         title: "Currently Listening To",
@@ -94,15 +100,15 @@ export const aLittleAboutMe = [
     },
     {
         title: "Currently Learning",
-        value: ["ReactJS", "TypeScript"]
+        value: ["Next.js", "Framer Motion"]
     },
     {
         title: "Currently Reading",
-        value: ["Make Time (by Jake Knapp and John Zeratsky)"]
+        value: ["Ikigai by Héctor García & Francesc Miralles"]
     },
     {
         title: "Current Obsessions",
-        value: ["iced matcha oat latte 🍵", "binge-watching Better Call Saul"]
+        value: ["iced matcha oat latte 🍵", "rewatching Grey's Anatomy 🩺"]
     }
 ]
 

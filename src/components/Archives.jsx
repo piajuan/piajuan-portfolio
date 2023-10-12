@@ -9,6 +9,14 @@ import {
     TableHeader,
     TableRow,
   } from "../components/ui/table"
+  import {
+    Dialog,
+    DialogContent,
+    DialogDescription,
+    DialogHeader,
+    DialogTitle,
+    DialogTrigger,
+  } from "../components/ui/dialog"  
   import { LucideArrowUpRight , LucideEye } from 'lucide-react'
 
 const Archives = () => {
@@ -35,7 +43,22 @@ const Archives = () => {
                         <TableCell>{archive.company}</TableCell>
                         <TableCell>{archive.role}</TableCell>
                         <TableCell>{archive.tech}</TableCell>
-                        <TableCell> { archive.link ? <LucideArrowUpRight size={20} className='ml-auto mr-0 hover:text-secondary'/> :  <LucideEye size={20} className='ml-auto mr-0 hover:text-secondary'/>} </TableCell>
+                        <TableCell>
+                            <Dialog>
+                                <DialogTrigger>
+                                    { archive.link ? <LucideArrowUpRight size={20} className='ml-auto mr-0 hover:text-secondary'/> :  <LucideEye size={20} className='ml-auto mr-0 hover:text-secondary'/>}
+                                </DialogTrigger>
+                                <DialogContent>
+                                    <DialogHeader>
+                                        <DialogDescription className="text-center">
+                                            👷🏻‍♀️🚧 This section is currently under construction and not accessible at the moment.
+                                            In the meantime, please feel free to explore the other sections.
+                                        </DialogDescription>
+                                    </DialogHeader>
+                                </DialogContent>
+                            </Dialog>
+
+                        </TableCell>
                     </TableRow>
                 ))}
                 </TableBody>

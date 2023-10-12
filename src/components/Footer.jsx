@@ -16,7 +16,7 @@ const Footer = () => {
           <img src={hiMemoji} alt="say hi!" className='absolute top-[-70%] right-[-20%] md:top-[-110%] md:right-[-24%] rotate-[8deg] scale-[0.4] transition-all ease-in-out duration-500 md:group-hover:scale-75 group-hover:opacity-100 group-hover:rotate-[18deg]' />
         </div>
 
-        <a href="mailto:piajuan.dev@gmail.com" target="_top" className='absolute bottom-1 right-1 text-gradient flex items-center gap-1 text-sm dark:text-white md:invisible'> <ArrowRight size={15} />  piajuan.dev@gmail.com</a>
+        <a href="mailto:piajuan.dev@gmail.com" target="_top" className='absolute bottom-1 right-3 text-gradient flex items-center gap-1 text-sm dark:text-white md:invisible'> <ArrowRight size={15} />  piajuan.dev@gmail.com</a>
 
       </div>
       <div className='grow-0 py-3 border-white border-t'>
@@ -25,7 +25,7 @@ const Footer = () => {
             <li><a href="/Sophia_Juan_CV_2023.pdf" target="_blank" className='uppercase dark:text-white'>Resume</a></li>
             <li><a href="https://www.linkedin.com/in/sophiajuan/" target='_blank' className='uppercase dark:text-white'>LinkedIn</a></li>
           </ul>
-          <a href="mailto:piajuan.dev@gmail.com" target="_top" className='group hyperlink flex items-center gap-1 text-sm [&>*]:transition-all [&>*]:ease-in-out [&>*]:duration-200 dark:text-white invisible md:visible'> <ArrowRight className='transition-all ease-in-out duration-300 -ml-4 opacity-0 group-hover:ml-0 group-hover:opacity-100' size={15} />  piajuan.dev@gmail.com</a>
+          <a href="mailto:piajuan.dev@gmail.com" target="_top" className='group hyperlink items-center gap-1 text-sm [&>*]:transition-all [&>*]:ease-in-out [&>*]:duration-200 dark:text-white hidden md:flex'> <ArrowRight className='transition-all ease-in-out duration-300 -ml-4 opacity-0 group-hover:ml-0 group-hover:opacity-100' size={15} />  piajuan.dev@gmail.com</a>
           <p className='text-xs md:text-sm dark:text-white'>Designed & Developed by <a href="" className='md:text-gradient'>Pia Juan</a> </p>
         </div>
       </div>
