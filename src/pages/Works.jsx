@@ -48,8 +48,8 @@ const Works = () => {
   }, [])
 
   return (
-    <div ref={worksRef}>
-        <h2 className='text-6xl md:text-8xl font-primary text-center my-6 px-4 dark:text-white'>stuff i've worked on</h2>
+    <div ref={worksRef} className='pt-6'>
+        <h2 className='text-6xl md:text-8xl font-primary text-center mb-6 px-4 dark:text-white'>stuff i've worked on</h2>
         <section>
           <div className="container mx-auto">
             <h3 className='font-tertiary uppercase text-center dark:text-white'>Featured Projects</h3>

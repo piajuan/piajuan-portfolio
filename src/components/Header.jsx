@@ -37,11 +37,11 @@ const Header = () => {
   })
 
   return (
-    <header className={`px-2 py-4 md:p-4 sticky top-0 left-0 w-full z-50 ${ scrollDirection === "down" ? "translate-y-[-56px]" : "translate-y-0"} ${ !isHeaderOnTop ? "header--onScroll" : "bg-transparent" } transition-all duration-500`}>
+    <header className={`px-2 py-4 md:p-4 fixed top-0 left-0 w-full z-50 ${ scrollDirection === "down" ? "translate-y-[-56px]" : "translate-y-0"} ${ !isHeaderOnTop ? "header--onScroll" : "bg-transparent" } transition-all duration-500`}>
         <div className="container mx-auto">
             <nav className="flex justify-between items-center">
-                <Link to={"/"} className='font-tertiary uppercase dark:text-white'>Pia Juan</Link>
-                <div className='dark:text-white text-sm'>
+                <Link to={"/"} className='grow font-tertiary uppercase dark:text-white'>Pia Juan</Link>
+                <div className='grow-0 dark:text-white text-sm'>
                   <TypeAnimation
                     sequence={[
                       "hello!", 
@@ -56,12 +56,12 @@ const Header = () => {
                     wrapper="span"
                     speed={50}
                     repeat={Infinity}
-                    className="pr-1 font-primary"
+                    className="pr-1 font-secondary text-xs md:text-base"
                     cursor={false}
                   />
                    ☻
                 </div>
-                <ul className='flex items-center gap-6'>
+                <ul className='grow flex items-center justify-end gap-6'>
                     <li><Link to={"/works"} className='hyperlink dark:text-white'>works</Link></li>
                     <li><Link to={"/about"} className='hyperlink dark:text-white'>about</Link></li>
                 </ul>

@@ -6,7 +6,7 @@ const AboutMe = () => {
   return (
     <section>
         <div className='container mx-auto mt-24 mb-12 lg:my-[24vh] p-4'>
-            <h2 className='text-6xl md:text-8xl font-primary dark:text-white'>a little about me</h2>
+            <h2 className='text-6xl md:text-8xl xl:text-9xl font-primary dark:text-white'>a little about me</h2>
             <div className='grid gap-4 grid-cols-1 my-6 md:my-14 md:grid-cols-2 lg:grid-cols-4'>
                 {
                     aLittleAboutMe.map((info, i) => (
@@ -26,7 +26,7 @@ const AboutMe = () => {
         <div className="container mx-auto mb-12 lg:mb-[24vh] p-4">
             <div className="flex flex-col gap-6 md:gap-4 lg:flex-row justify-between items-center">
                 <div className='w-full lg:w-1/2'>
-                    <h2 className='text-6xl mb-6 md:text-8xl font-primary dark:text-white'>during my free time, I..</h2>
+                    <h2 className='text-6xl mb-6 md:text-8xl xl:text-9xl font-primary dark:text-white'>during my free time, I..</h2>
                 </div>
                 <div className="w-full lg:w-1/2">
                     <ul className='columns-2'>

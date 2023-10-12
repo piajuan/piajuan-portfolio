@@ -56,6 +56,37 @@ export const landingFeaturedProjects = [
     },
 ]
 
+export const experience = [
+    {
+        role: 'Frontend Developer & Designer',
+        company: 'Oct 2020 - Present | HTech Corporation',
+        desc: 'Create high-quality front-end projects for diverse clients, addressing bugs, mobile responsiveness, and UX improvements. Collaborates with designers on strategy, offers technical/UI/UX solutions, manages boilerplates, and mentors new developers. Participates in tech-sharing sessions within the team to enhance productivity with design tools, plugins, CSS techniques, and more.',
+        companyLink: 'https://www.htechcorp.net/',
+    },
+    {
+        role: 'Freelance Frontend Developer',
+        company: 'Apr 2022  - Feb 2023',
+        desc: 'Developed Laravel-powered webpages for a travel booking site. Collaborated with project managers and backend developers to handle UI/UX issues and client requests.',
+    },
+    {
+        role: 'Freelance Designer',
+        company: 'Oct 2022  - Nov 2022',
+        desc: 'Designed event backdrops, small business logos, and educational infographics.',
+    },
+    {
+        role: 'Web Designer',
+        company: 'Oct 2019 - Sep 2020 | MCVO Outsourcing Talent Resources',
+        desc: "Developed UI mockups and prototypes, created design plans, and presented website structures to clients. Built SEO-friendly front-end using WordPress, maintained client websites' appearance and performance, and designed marketing collateral including email templates, social media banners, and infographics for both company and clients.",
+        companyLink: 'https://www.mcvotalent.com/',
+    },
+    {
+        role: 'IT Support (Internship)',
+        company: 'Jun 2018 - Aug 2018 | SVG & Co., ',
+        desc: "Handled queries, provided technical support for computer-related issues, and guided users through problem-solving processes.",
+        companyLink: 'https://www.sgv.ph/',
+    },
+]
+
 export const aLittleAboutMe = [
     {
         title: "Currently Listening To",
