@@ -22,7 +22,7 @@ const Hero = () => {
             <div className='hero__blob blur-[180px] absolute w-[150vh] aspect-square rounded-full dark:bg-[#F9600A] left-[50vw]'></div>
             <div className='hero__blob blur-[180px] absolute w-[150vh] aspect-square rounded-full dark:bg-[#3676F3] left-[30vw] bottom-0'></div>
             {/* end: blobs */}
-            <div className='absolute w-full h-full p-4 flex-auto flex flex-col justify-end md:justify-center items-center bg-white/[0.2] backdrop-blur-[180px] border-2 border-solid border-white/[0.18] box-shadow-hero'>
+            <div className='absolute w-full h-full p-4 flex-auto flex flex-col justify-end md:justify-center items-center bg-white/[0.2] backdrop-blur-[100px] border-2 border-solid border-white/[0.18] box-shadow-hero'>
                 {/* noise effect */}
                 <div className='content-[""] absolute left-0 top-0 block w-full h-full mix-blend-overlay z-0 bg-[url(/noise.png)] opacity-80 pointer-events-none'></div>
                 {/* content */}

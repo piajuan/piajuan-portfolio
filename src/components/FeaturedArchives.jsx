@@ -40,9 +40,9 @@ const FeaturedArchives = () => {
         <div className='my-8 lg:my-24 '>
           <h1 className='gs-archives__heading text-[8vw] leading-none font-primary whitespace-nowrap dark:text-white'>archives <i className='px-4'>archives</i> archives <i className='px-4'>archives</i> archives </h1>
         </div>
-        <div className="gs-archives__grid grid grid-cols-2 lg:grid-cols-4 overflow-hidden">
+        <div className="gs-archives__grid grid grid-cols-3 lg:grid-cols-4 overflow-hidden">
             {archivesPics.map((pic,i) => {
-                return <div key={i}> <img loading='lazy' src={pic} className='gs-archives__img block'/> </div>
+                return <div key={i}> <img loading='lazy' src={pic} className='gs-archives__img block w-full h-[118px] md:h-[220px] lg:[258px] object-contain'/> </div>
             })}
         </div>
     </section>

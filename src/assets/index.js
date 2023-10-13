@@ -64,7 +64,7 @@ import hiMemoji from "./hi-memoji.svg"
 
 // about
 import aboutVid from "./about/working.mp4"
-import aboutGif from "./about/working.gif"
+import aboutPic from "./about/working.png"
 import tagline from "./tagline.svg"
 
 import reading from "./about/reading.jpg"
@@ -85,7 +85,7 @@ export {
     lusogThumb,
     hiMemoji,
     aboutVid,
-    aboutGif,
+    aboutPic,
     tagline,
 }
 
