@@ -42,7 +42,7 @@ const FeaturedArchives = () => {
         </div>
         <div className="gs-archives__grid grid grid-cols-2 lg:grid-cols-4 overflow-hidden">
             {archivesPics.map((pic,i) => {
-                return <div key={i}> <img src={pic} className='gs-archives__img block'/> </div>
+                return <div key={i}> <img loading='lazy' src={pic} className='gs-archives__img block'/> </div>
             })}
         </div>
     </section>

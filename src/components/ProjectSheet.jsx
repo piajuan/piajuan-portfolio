@@ -38,7 +38,7 @@ const ProjectSheet = ({proj}) => {
                                 proj.carouselMedia.map((slide, i) => {
                                     return (
                                         <SwiperSlide>
-                                            <img src={slide} alt={`${proj.title[0]} ${proj.title[1]} project screenshot ${i + 1}`} className='absolute w-full h-full top-0 left-0' />
+                                            <img loading='lazy' src={slide} alt={`${proj.title[0]} ${proj.title[1]} project screenshot ${i + 1}`} className='absolute w-full h-full top-0 left-0' />
                                         </SwiperSlide>
                                     )
                                 })

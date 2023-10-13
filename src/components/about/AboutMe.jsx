@@ -40,7 +40,7 @@ const AboutMe = () => {
                     <div className='columns-4 md:columns-6 lg:w-[65%] md:mt-5 md:gap-2'>
                         {aboutMePics.map((pic,i) => (
                             <div key={i} className='[&:nth-child(1)]:pt-2 [&:nth-child(3)]:pt-5 [&:nth-child(8)]:pt-4 md:[&:nth-child(6)]:pt-6 md:[&:nth-child(8)]:pt-0 md:last-of-type:pt-8'>
-                                <img src={pic} className='w-full mb-2 rounded-[8px] md:rounded-md brightness-[0.8]'/>
+                                <img loading='lazy' src={pic} className='w-full mb-2 rounded-[8px] md:rounded-md brightness-[0.8]'/>
                             </div>
                         ))}
                     </div>

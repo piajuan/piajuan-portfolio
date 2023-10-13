@@ -13,7 +13,7 @@ const Footer = () => {
           <h3 className='text-8xl md:text-[6vw] font-primary leading-none mb-1 text-right md:text-left dark:text-white'>it's your turn</h3>
           <p className='leading-none w-3/5 ml-auto mr-0 text-right md:w-full md:text-left md:ml-8 dark:text-white'> Get in touch for opportunities or just to say hi 👋🏼 </p>
 
-          <img src={hiMemoji} alt="say hi!" className='absolute top-[-70%] right-[-20%] md:top-[-110%] md:right-[-24%] rotate-[8deg] scale-[0.4] transition-all ease-in-out duration-500 md:group-hover:scale-75 group-hover:opacity-100 group-hover:rotate-[18deg]' />
+          <img loading='lazy' src={hiMemoji} alt="say hi!" className='absolute top-[-70%] right-[-20%] md:top-[-110%] md:right-[-24%] rotate-[8deg] scale-[0.4] transition-all ease-in-out duration-500 md:group-hover:scale-75 group-hover:opacity-100 group-hover:rotate-[18deg]' />
         </div>
 
         <a href="mailto:piajuan.dev@gmail.com" target="_top" className='absolute bottom-1 right-3 text-gradient flex items-center gap-1 text-sm dark:text-white md:invisible'> <ArrowRight size={15} />  piajuan.dev@gmail.com</a>

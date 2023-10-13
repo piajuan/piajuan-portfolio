@@ -3,7 +3,7 @@ import { techStackIcons } from '../assets'
 
 const TechStack = () => {
     const marqueeContent = techStackIcons.map((icon, i) => (
-        <img key={i} src={icon} className='h-[40px] w-[40px] md:h-[60px] md:w-[60px] object-contain grayscale opacity-50 transition-all duration-200 hover:filter-none hover:opacity-100 hover:scale-105'/>
+        <img loading='lazy' key={i} src={icon} className='h-[40px] w-[40px] md:h-[60px] md:w-[60px] object-contain grayscale opacity-50 transition-all duration-200 hover:filter-none hover:opacity-100 hover:scale-105'/>
     ))
   return (
     <div className="container mx-auto py-[10vw]">
