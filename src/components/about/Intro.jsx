@@ -1,15 +1,15 @@
 import React from 'react'
-import { aboutVid, tagline } from "../../assets"
+import { aboutVid, aboutGif, tagline } from "../../assets"
 
 const Intro = () => {
   return (
     <section className='h-[calc(100vh-56px)] container mx-auto p-4'>
         <div className='relative h-full p-4 md:pl-10 md:pb-32 lg:pb-28 xl:p-0 overflow-hidden rounded-lg flex flex-col lg:items-end justify-end xl:justify-center'>
             <div className='absolute top-0 left-0 w-full h-full overflow-hidden'>
-                {/* <video className='absolute left-0 top-0 w-full lg:w-[70%] h-full object-cover object-[40%_12%] scale-[1.1] lg:scale-1 translate-y-[-8%] lg:translate-y-0 lg:translate-x-[-10%] pointer-events-none' autoPlay={true} controls={false} muted loop>
+                <video className='absolute left-0 top-0 w-full lg:w-[70%] h-full object-cover object-[40%_12%] scale-[1.1] lg:scale-1 translate-y-[-8%] lg:translate-y-0 lg:translate-x-[-10%] pointer-events-none hidden lg:block' autoPlay={true} controls={false} muted loop>
                     <source src={aboutVid} type="video/mp4"/>
-                </video> */}
-                <img src={aboutVid} className='absolute left-0 top-0 w-full lg:w-[70%] h-full object-cover object-[40%_12%] scale-[1.1] lg:scale-1 translate-y-[-8%] lg:translate-y-0 lg:translate-x-[-10%] pointer-events-none'/>
+                </video>
+                <img src={aboutGif} className='absolute left-0 top-0 w-full lg:w-[70%] h-full object-cover object-[40%_12%] scale-[1.1] lg:scale-1 translate-y-[-8%] lg:translate-y-0 lg:translate-x-[-10%] pointer-events-none lg:hidden'/>
                 <div className='absolute left-0 top-0 w-full h-full bg-[linear-gradient(359deg,_#161819_33.92%,_rgba(22,24,25,0.76)_97.51%)] lg:bg-[linear-gradient(270deg,#161819_39%,rgba(0,0,0,0.42)95.24%)]'></div>
             </div>
 
