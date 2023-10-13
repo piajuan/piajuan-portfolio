@@ -18,9 +18,9 @@ const Hero = () => {
     <div ref={hero} className='h-[calc(100vh-56px)] p-4 [&>*]:select-none'>
         <div className='relative h-full overflow-hidden rounded-lg bg-hero'>
             {/* start: blobs */}
-            <div className='hero__blob absolute w-[150vh] aspect-square rounded-full dark:bg-[#E7C173] left-[20vw]'></div>
-            <div className='hero__blob absolute w-[150vh] aspect-square rounded-full dark:bg-[#F9600A] left-[50vw]'></div>
-            <div className='hero__blob absolute w-[150vh] aspect-square rounded-full dark:bg-[#3676F3] left-[30vw] bottom-0'></div>
+            <div className='hero__blob blur-[180px] absolute w-[150vh] aspect-square rounded-full dark:bg-[#E7C173] left-[20vw]'></div>
+            <div className='hero__blob blur-[180px] absolute w-[150vh] aspect-square rounded-full dark:bg-[#F9600A] left-[50vw]'></div>
+            <div className='hero__blob blur-[180px] absolute w-[150vh] aspect-square rounded-full dark:bg-[#3676F3] left-[30vw] bottom-0'></div>
             {/* end: blobs */}
             <div className='absolute w-full h-full p-4 flex-auto flex flex-col justify-end md:justify-center items-center bg-white/[0.2] backdrop-blur-[180px] border-2 border-solid border-white/[0.18] box-shadow-hero'>
                 {/* noise effect */}
