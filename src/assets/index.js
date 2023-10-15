@@ -64,7 +64,7 @@ import hiMemoji from "./hi-memoji.svg"
 
 // about
 import aboutVid from "./about/working.mp4"
-import aboutPic from "./about/working.png"
+import aboutPic from "./about/working.jpg"
 import tagline from "./tagline.svg"
 
 import reading from "./about/reading.jpg"

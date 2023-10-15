@@ -41,7 +41,7 @@ const Header = () => {
         <div className="container mx-auto">
             <nav className="flex justify-between items-center">
                 <Link to={"/"} className='grow font-tertiary uppercase dark:text-white'>Pia Juan</Link>
-                <div className='grow-0 dark:text-white text-sm'>
+                <div className='grow-0 inline-flex items-center text-xs dark:text-white'>
                   <TypeAnimation
                     sequence={[
                       "hello!", 
@@ -56,8 +56,8 @@ const Header = () => {
                     wrapper="span"
                     speed={50}
                     repeat={Infinity}
-                    className="pr-1 font-secondary text-xs md:text-base"
                     cursor={false}
+                    className='pr-1'
                   />
                    ☻
                 </div>
