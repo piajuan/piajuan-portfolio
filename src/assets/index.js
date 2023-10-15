@@ -1,6 +1,5 @@
 // landing featured projects
 import geh from "./featured/geh.jpg"
-import lusogisip from "./featured/lusogisip.jpg"
 
 // works - featured
 import todoThumb from "./featured/todo/thumb.png"
@@ -18,7 +17,7 @@ import geh2 from "./featured/geh/slide2.gif"
 import shkThumb from "./featured/shk/thumb.jpg"
 import shk1 from "./featured/shk/slide1.gif"
 
-import btsThumb from "./featured/smartxbts/thumb.gif"
+import btsThumb from "./featured/smartxbts/thumb.webp"
 import bts1 from "./featured/smartxbts/slide1.gif"
 import bts2 from "./featured/smartxbts/slide2.gif"
 import bts3 from "./featured/smartxbts/slide3.gif"
@@ -27,7 +26,8 @@ import bts5 from "./featured/smartxbts/slide5.png"
 import bts6 from "./featured/smartxbts/slide6.png"
 
 
-import lusogThumb from "./featured/lusog-isip/thumb.gif"
+import lusogThumb from "./featured/lusog-isip/thumb.webp"
+import lusogThumbFallback from "./featured/lusog-isip/thumb.jpg"
 import lusog1 from "./featured/lusog-isip/slide1.jpg"
 import lusog2 from "./featured/lusog-isip/slide2.jpg"
 import lusog3 from "./featured/lusog-isip/slide3.jpg"
@@ -83,6 +83,7 @@ export {
     btsThumb,
     shkThumb,
     lusogThumb,
+    lusogThumbFallback,
     hiMemoji,
     aboutVid,
     aboutPic,
@@ -114,6 +115,7 @@ export const featuredImages = {
     },
     lusog: {
         thumb: lusogThumb,
+        fallback: lusogThumbFallback,
         slides: [lusog1, lusog2, lusog3, lusog4, lusog5, lusog6]
     },
 }
