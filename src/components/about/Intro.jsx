@@ -6,7 +6,7 @@ const Intro = () => {
     <section className='h-[calc(100vh-56px)] container mx-auto p-4'>
         <div className='relative h-full p-4 md:pl-10 md:pb-32 lg:pb-28 xl:p-0 overflow-hidden rounded-lg flex flex-col lg:items-end justify-end xl:justify-center'>
             <div className='absolute top-0 left-0 w-full h-full overflow-hidden'>
-                <video className='absolute left-0 top-0 w-full lg:w-[70%] h-full object-cover object-[40%_12%] scale-[1.1] lg:scale-1 translate-y-[-8%] lg:translate-y-0 lg:translate-x-[-10%] pointer-events-none hidden lg:block' autoPlay={true} controls={false} muted loop>
+                <video className='absolute left-0 top-0 w-full lg:w-[70%] h-full object-cover object-[40%_12%] scale-[1.1] lg:scale-1 translate-y-[-8%] lg:translate-y-0 lg:translate-x-[-10%] pointer-events-none hidden lg:block' autoPlay={true} controls={false} webkit-playsinline playsinline muted loop>
                     <source src={aboutVid} type="video/mp4"/>
                 </video>
                 <img src={aboutPic} className='absolute left-0 top-0 w-full lg:w-[70%] h-full object-cover object-[40%_12%] scale-[1.1] lg:scale-1 translate-y-[-8%] lg:translate-y-0 lg:translate-x-[-10%] pointer-events-none lg:hidden'/>

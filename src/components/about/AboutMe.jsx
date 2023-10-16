@@ -35,7 +35,7 @@ const AboutMe = () => {
                         <li className='mb-3 dark:text-white'>take <a className='text-gradient' href="https://www.instagram.com/piaya.film/" target='_blank'> 35mm film photography </a></li>
                         <li className='mb-3 mt-6 dark:text-white'>crochet 🧶</li>
                         <li className='mb-3 dark:text-white'>camping / nature trips</li>
-                        <li className='mb-3 dark:text-white'>experiment with iced coffee recipes at home</li>
+                        {/* <li className='mb-3 dark:text-white'>experiment with iced coffee recipes at home</li> */}
                     </ul>
                     <div className='columns-4 md:columns-6 lg:w-[65%] md:mt-5 md:gap-2'>
                         {aboutMePics.map((pic,i) => (
