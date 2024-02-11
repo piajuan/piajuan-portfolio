@@ -61,6 +61,7 @@ import figma from "./tech/figma.svg"
 import swiper from "./tech/swiper.svg"
 
 import hiMemoji from "./hi-memoji.svg"
+import workingMemoji from "./working-memoji.svg"
 
 // about
 import aboutVid from "./about/working.mp4"
@@ -85,6 +86,7 @@ export {
     lusogThumb,
     lusogThumbFallback,
     hiMemoji,
+    workingMemoji,
     aboutVid,
     aboutPic,
     tagline,
