@@ -48,7 +48,7 @@ const Header = () => {
                       1000, 
                       "kamusta?", 
                       1000, 
-                      "welcome to my website", 
+                      "welcome to my creative space 🌐", 
                       1000, 
                       "glad to see you here!",
                       1000
