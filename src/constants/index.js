@@ -51,7 +51,7 @@ export const landingFeaturedProjects = [
 
 export const experience = [
   {
-    role: 'Frontend Developer & Designer',
+    role: 'Mid Frontend Developer',
     company: 'Apr 2024 - Present | DottyStyle Creative Co.',
     desc: 'Developed responsive Corporate and Shop pages for a major American brand using Shopify and Liquid templating, implementing custom features. Co-developed a GSAP-animated SPA for an Information Kiosk, and built authentication and booking pages for a parcel shipment app using React JS. Contributed to an animation-rich article page for a Korean automotive brand using Vue and GSAP. Additionally, worked on internal and ad-hoc projects, including HTML banners, static pages, email templates, and bug fixes.',
     companyLink: 'https://dottystylecreative.com/',
