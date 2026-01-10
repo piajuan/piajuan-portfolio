@@ -51,8 +51,14 @@ export const landingFeaturedProjects = [
 
 export const experience = [
   {
+    role: 'Digital Developer',
+    company: 'Sep 2024 - Present | HH Global',
+    desc: 'Part of the pioneer team launching the Content Studio Manila, collaborating with global counterparts across EMEA and APAC to support scalable digital delivery. I design and develop responsive email templates and landing pages using semantic HTML and CSS, build interactive PDF forms, and adapt microsites for offline iPad kiosk use. For internal platforms and brand hubs, I work across UI/UX design and frontend development using React.js, and support creative automation initiatives',
+    companyLink: 'https://www.hhglobal.com/',
+  },
+  {
     role: 'Mid Frontend Developer',
-    company: 'Apr 2024 - Present | DottyStyle Creative Co.',
+    company: 'Apr 2024 - Aug 2024 | DottyStyle Creative Co.',
     desc: 'Developed responsive Corporate and Shop pages for a major American brand using Shopify and Liquid templating, implementing custom features. Co-developed a GSAP-animated SPA for an Information Kiosk, and built authentication and booking pages for a parcel shipment app using React JS. Contributed to an animation-rich article page for a Korean automotive brand using Vue and GSAP. Additionally, worked on internal and ad-hoc projects, including HTML banners, static pages, email templates, and bug fixes.',
     companyLink: 'https://dottystylecreative.com/',
   },
